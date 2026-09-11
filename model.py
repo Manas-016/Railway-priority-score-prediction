@@ -5,6 +5,7 @@ from sklearn.model_selection import train_test_split
 from xgboost import XGBRegressor
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
+import matplotlib.pyplot as plt
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
@@ -91,3 +92,25 @@ joblib.dump(preprocessor, "priority_preprocessor.pkl")
 
 
 
+
+
+importance = model.feature_importances_
+
+feature_names = preprocessor.get_feature_names_out()
+
+feature_importance = pd.DataFrame({
+    "feature": feature_names,
+    "importance": importance
+})
+
+feature_importance = feature_importance.sort_values(
+    by="importance",
+    ascending=False
+)
+
+print(feature_importance.head(20))
+
+feature_importance.to_csv(
+    "Datasets/feature_importance.csv",
+    index=False
+)
