@@ -1,0 +1,37 @@
+feature,type,meaning
+task_id,ID,Unique maintenance task identifier
+asset_id,ID,Asset identifier
+corridor_id,Categorical,Rail corridor/section identifier
+zone_id,Categorical,Maintenance/control zone
+department,Categorical,"Engineering, Traction, or Signal_Telecom"
+asset_type,Categorical,Type of railway infrastructure asset
+defect_type,Categorical,Observed defect/fault category
+condition_score,Numeric,"Asset condition score, 0-100; lower is worse"
+defect_severity,Numeric,Defect severity from 1 to 5
+criticality,Numeric,Operational criticality from 1 to 5
+overdue_days,Numeric,Days maintenance task is overdue
+task_age_days,Numeric,Age of open maintenance task
+days_since_last_maintenance,Numeric,Days since previous maintenance
+asset_age_years,Numeric,Approximate asset age
+failure_history_90d,Numeric,Failures recorded in previous 90 days
+defect_frequency_30d,Numeric,Defect occurrences in previous 30 days
+estimated_duration_hours,Numeric,Estimated maintenance duration
+avg_daily_trains,Numeric,Average trains using corridor per day
+passenger_trains_next_24h,Numeric,Forecast passenger trains in next 24 hours
+freight_trains_next_24h,Numeric,Forecast freight trains in next 24 hours
+trains_next_6h,Numeric,Expected trains during near-term planning window
+corridor_utilization_pct,Numeric,Estimated corridor utilization
+block_availability_hours,Numeric,Available maintenance-block window
+crew_availability_pct,Numeric,Available maintenance workforce percentage
+dependency_count,Numeric,Number of dependent tasks/assets
+nearby_tasks,Numeric,Other tasks near the same corridor
+required_block,Binary,Whether task requires a traffic/maintenance block
+power_disconnection_required,Binary,Whether electrical isolation is required
+signal_disconnection_required,Binary,Whether signalling isolation is required
+alternative_route_available,Binary,Whether an alternate route is available
+weather_risk,Categorical,Weather/operational environmental condition
+safety_impact,Numeric,"Estimated safety impact, 1-5"
+failure_probability,Numeric,Synthetic estimated probability of near-term failure
+expected_delay_minutes,Numeric,Estimated train-delay impact if not addressed
+priority_score,Target,"Synthetic maintenance priority score, 0-100"
+risk_level,Target,Low / Medium / High / Critical derived from priority score

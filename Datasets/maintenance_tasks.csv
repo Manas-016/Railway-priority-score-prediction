@@ -1,0 +1,501 @@
+task_id,asset_id,department,task_type,section_id,location_code,reported_date,due_date,estimated_duration_min,maintenance_type,status,criticality,urgency,operational_impact,required_block_type,can_be_rescheduled,priority_score
+TASK-00001,AST-00096,Engineering,Inspection,SEC-009,NGP,2026-03-31,2026-04-15,61,Emergency,Scheduled,Medium,High,Low,No Block,Yes,47.78
+TASK-00002,AST-00200,Engineering,Overhaul,SEC-005,NGP,2026-04-20,2026-05-16,652,Inspection,In Progress,High,Critical,Medium,Traffic Block,Yes,77.74
+TASK-00003,AST-00078,S&T,Repair,SEC-005,NGP,2026-08-15,2026-08-27,142,Preventive,Scheduled,High,Critical,High,Line Block,Yes,82.27
+TASK-00004,AST-00093,Electrical,Preventive Maintenance,SEC-004,ALD,2026-06-10,2026-08-23,229,Preventive,Pending,High,Critical,High,Power Block,Yes,84.41
+TASK-00005,AST-00046,Engineering,Preventive Maintenance,SEC-010,UMB,2026-06-08,2026-07-24,234,Emergency,Pending,Medium,Medium,Medium,Line Block,Yes,49.85
+TASK-00006,AST-00105,S&T,Testing,SEC-009,BBS,2026-06-19,2026-10-05,99,Preventive,In Progress,Medium,High,Medium,Line Block,Yes,53.04
+TASK-00007,AST-00116,S&T,Overhaul,SEC-007,GAYA,2026-06-01,2026-09-23,527,Inspection,Pending,Medium,High,Medium,Line Block,Yes,55.27
+TASK-00008,AST-00053,Engineering,Repair,SEC-020,ASR,2026-08-06,2026-10-11,441,Preventive,Scheduled,Medium,Medium,Medium,Line Block,No,39.82
+TASK-00009,AST-00143,S&T,Inspection,SEC-018,MTC,2026-04-22,2026-08-11,117,Preventive,Pending,Medium,High,Medium,Line Block,No,58.7
+TASK-00010,AST-00082,Electrical,Preventive Maintenance,SEC-003,BBS,2026-05-05,2026-08-11,136,Preventive,Scheduled,High,Critical,High,Line Block,No,89.26
+TASK-00011,AST-00188,S&T,Inspection,SEC-005,GAYA,2026-05-08,2026-05-11,69,Emergency,Pending,High,Critical,Critical,Line Block,No,92.22
+TASK-00012,AST-00096,Engineering,Preventive Maintenance,SEC-009,NGP,2026-05-12,2026-07-22,215,Emergency,Scheduled,Medium,Critical,Medium,Line Block,Yes,75.68
+TASK-00013,AST-00168,Engineering,Inspection,SEC-012,ASR,2026-05-01,2026-06-28,58,Corrective,Completed,Medium,High,Low,Traffic Block,Yes,59.19
+TASK-00014,AST-00131,Electrical,Replacement,SEC-014,AGC,2026-06-18,2026-06-28,456,Corrective,Pending,Low,High,Low,Power Block,Yes,42.75
+TASK-00015,AST-00010,S&T,Repair,SEC-006,BPL,2026-05-23,2026-07-08,151,Inspection,Scheduled,Medium,Critical,Low,Traffic Block,Yes,61.78
+TASK-00016,AST-00095,Engineering,Corrective Maintenance,SEC-004,NDLS,2026-05-25,2026-06-18,316,Inspection,Scheduled,Medium,Critical,High,Traffic Block,Yes,70.54
+TASK-00017,AST-00058,Engineering,Repair,SEC-010,JP,2026-07-18,2026-11-06,319,Preventive,Scheduled,Medium,Low,Medium,Line Block,No,35.06
+TASK-00018,AST-00153,Engineering,Preventive Maintenance,SEC-017,JP,2026-05-09,2026-05-29,74,Emergency,Pending,Low,High,Medium,No Block,No,47.46
+TASK-00019,AST-00144,S&T,Replacement,SEC-019,MTC,2026-07-25,2026-08-03,471,Preventive,Pending,Medium,High,Medium,Line Block,Yes,67.57
+TASK-00020,AST-00132,Engineering,Overhaul,SEC-008,LDH,2026-07-06,2026-08-02,570,Emergency,Scheduled,Low,High,Medium,Traffic Block,Yes,50.52
+TASK-00021,AST-00199,Engineering,Inspection,SEC-011,GZB,2026-04-19,2026-05-02,94,Corrective,Scheduled,High,High,Medium,Line Block,No,72.26
+TASK-00022,AST-00184,Electrical,Inspection,SEC-003,BBS,2026-03-27,2026-06-03,114,Emergency,In Progress,Medium,Critical,Low,Power Block,Yes,65.69
+TASK-00023,AST-00153,Engineering,Overhaul,SEC-017,JP,2026-07-20,2026-10-16,564,Emergency,Scheduled,Low,Medium,Low,Power Block,No,33.73
+TASK-00024,AST-00126,Engineering,Overhaul,SEC-015,CNB,2026-07-05,2026-07-26,297,Inspection,Completed,High,Critical,High,Traffic Block,Yes,89.26
+TASK-00025,AST-00035,Engineering,Preventive Maintenance,SEC-006,ANVT,2026-04-14,2026-06-24,70,Inspection,In Progress,High,Critical,Medium,No Block,Yes,71.19
+TASK-00026,AST-00122,Engineering,Overhaul,SEC-004,BBS,2026-05-29,2026-08-17,331,Corrective,Completed,High,Critical,High,Line Block,No,84.6
+TASK-00027,AST-00109,Electrical,Testing,SEC-004,CNB,2026-07-04,2026-07-25,162,Preventive,In Progress,High,High,Critical,Traffic Block,Yes,81.42
+TASK-00028,AST-00040,Engineering,Corrective Maintenance,SEC-008,UMB,2026-05-31,2026-07-13,350,Preventive,Completed,Low,Critical,Low,Power Block,Yes,53.23
+TASK-00029,AST-00136,Engineering,Inspection,SEC-010,RE,2026-07-05,2026-07-10,74,Inspection,Scheduled,High,Critical,Medium,No Block,Yes,71.59
+TASK-00030,AST-00085,Electrical,Overhaul,SEC-008,ANVT,2026-04-26,2026-07-23,559,Corrective,In Progress,Medium,Critical,Low,Power Block,Yes,68.6
+TASK-00031,AST-00005,Engineering,Overhaul,SEC-003,LDH,2026-06-19,2026-08-10,434,Emergency,Pending,High,High,Medium,Line Block,No,70.28
+TASK-00032,AST-00057,S&T,Testing,SEC-007,ASR,2026-07-19,2026-09-13,166,Emergency,Pending,High,Critical,Critical,Line Block,Yes,80.63
+TASK-00033,AST-00077,S&T,Overhaul,SEC-003,DLI,2026-05-02,2026-07-26,341,Emergency,In Progress,Medium,Medium,Low,Power Block,Yes,51.63
+TASK-00034,AST-00149,S&T,Overhaul,SEC-020,NDLS,2026-05-17,2026-07-10,315,Corrective,Pending,High,Critical,Critical,Traffic Block,No,90.49
+TASK-00035,AST-00185,S&T,Repair,SEC-012,UMB,2026-03-16,2026-05-22,353,Preventive,In Progress,Medium,Critical,Critical,Line Block,Yes,80.8
+TASK-00036,AST-00006,Engineering,Testing,SEC-015,HWH,2026-05-20,2026-08-07,108,Inspection,Pending,Medium,Critical,Low,Line Block,Yes,63.0
+TASK-00037,AST-00133,S&T,Overhaul,SEC-009,NDLS,2026-05-21,2026-05-31,281,Emergency,Pending,Medium,Medium,Medium,Traffic Block,No,48.67
+TASK-00038,AST-00141,Electrical,Replacement,SEC-020,LKO,2026-05-29,2026-07-11,379,Inspection,Completed,High,Critical,High,Power Block,Yes,87.51
+TASK-00039,AST-00017,Engineering,Repair,SEC-009,BBS,2026-06-26,2026-10-01,369,Inspection,Scheduled,High,Medium,High,Line Block,Yes,62.57
+TASK-00040,AST-00084,Electrical,Repair,SEC-020,HWH,2026-07-30,2026-11-15,321,Corrective,Pending,Medium,Low,Medium,Power Block,Yes,39.55
+TASK-00041,AST-00124,Electrical,Repair,SEC-018,LDH,2026-06-19,2026-07-17,335,Emergency,Pending,High,High,High,Traffic Block,No,78.47
+TASK-00042,AST-00175,S&T,Testing,SEC-017,ANVT,2026-03-28,2026-04-06,106,Preventive,Scheduled,High,Medium,High,Line Block,No,66.11
+TASK-00043,AST-00128,S&T,Corrective Maintenance,SEC-006,CNB,2026-07-07,2026-10-14,148,Corrective,In Progress,High,High,High,Power Block,Yes,65.82
+TASK-00044,AST-00146,Engineering,Overhaul,SEC-012,HWH,2026-08-22,2026-11-06,652,Corrective,Scheduled,High,Medium,High,Traffic Block,Yes,53.95
+TASK-00045,AST-00002,Engineering,Replacement,SEC-019,ASR,2026-06-08,2026-06-17,401,Emergency,In Progress,High,Critical,High,Line Block,Yes,87.24
+TASK-00046,AST-00194,Engineering,Replacement,SEC-007,UMB,2026-04-06,2026-07-19,305,Inspection,In Progress,High,High,High,Power Block,Yes,73.51
+TASK-00047,AST-00200,Engineering,Repair,SEC-005,NGP,2026-06-16,2026-06-20,301,Emergency,Scheduled,High,High,High,Power Block,Yes,78.22
+TASK-00048,AST-00049,S&T,Preventive Maintenance,SEC-009,CNB,2026-07-24,2026-08-04,202,Inspection,In Progress,High,High,Low,Power Block,Yes,67.07
+TASK-00049,AST-00099,Electrical,Replacement,SEC-019,GAYA,2026-06-24,2026-09-17,561,Emergency,Pending,High,High,High,Power Block,Yes,67.82
+TASK-00050,AST-00012,Electrical,Inspection,SEC-007,NGP,2026-07-23,2026-09-02,54,Corrective,Pending,High,High,Critical,Power Block,Yes,73.21
+TASK-00051,AST-00035,Engineering,Replacement,SEC-006,ANVT,2026-09-07,2026-12-07,329,Corrective,Scheduled,High,Medium,High,Traffic Block,No,52.12
+TASK-00052,AST-00084,Electrical,Repair,SEC-020,HWH,2026-05-13,2026-07-14,364,Emergency,Pending,Medium,High,Low,Line Block,Yes,48.98
+TASK-00053,AST-00181,Engineering,Inspection,SEC-012,JP,2026-04-19,2026-05-28,45,Corrective,Completed,Low,Critical,Low,Power Block,No,55.27
+TASK-00054,AST-00105,S&T,Replacement,SEC-009,BBS,2026-06-24,2026-09-05,288,Preventive,Scheduled,Medium,Medium,Low,Traffic Block,Yes,42.48
+TASK-00055,AST-00080,Electrical,Repair,SEC-019,LDH,2026-03-18,2026-06-03,264,Emergency,Scheduled,High,Medium,Medium,Power Block,No,61.35
+TASK-00056,AST-00053,Engineering,Preventive Maintenance,SEC-020,ASR,2026-03-25,2026-07-06,199,Inspection,Scheduled,Medium,Critical,Low,Traffic Block,No,60.68
+TASK-00057,AST-00037,Electrical,Corrective Maintenance,SEC-009,ALD,2026-04-18,2026-08-14,245,Inspection,Scheduled,High,High,High,Line Block,Yes,86.58
+TASK-00058,AST-00089,Engineering,Corrective Maintenance,SEC-003,JP,2026-06-20,2026-09-06,100,Preventive,Completed,High,Critical,Medium,Line Block,Yes,73.49
+TASK-00059,AST-00145,Electrical,Repair,SEC-002,UMB,2026-07-26,2026-10-09,329,Inspection,In Progress,Low,High,Low,Line Block,Yes,40.9
+TASK-00060,AST-00024,S&T,Testing,SEC-001,ANVT,2026-05-31,2026-09-13,148,Preventive,Scheduled,Low,Critical,Medium,Traffic Block,Yes,49.04
+TASK-00061,AST-00042,S&T,Preventive Maintenance,SEC-009,JP,2026-05-28,2026-06-04,187,Emergency,Pending,Medium,Critical,Medium,Line Block,Yes,72.89
+TASK-00062,AST-00162,Electrical,Testing,SEC-019,LKO,2026-04-02,2026-06-19,149,Corrective,Pending,Medium,Medium,Critical,Traffic Block,Yes,68.22
+TASK-00063,AST-00110,S&T,Overhaul,SEC-018,DLI,2026-08-02,2026-10-05,481,Emergency,Scheduled,High,Medium,Medium,Traffic Block,No,44.9
+TASK-00064,AST-00179,Electrical,Inspection,SEC-011,MTC,2026-08-07,2026-11-26,83,Emergency,Completed,High,Medium,Critical,No Block,Yes,56.91
+TASK-00065,AST-00074,Engineering,Repair,SEC-003,ASR,2026-05-19,2026-07-27,353,Emergency,In Progress,High,Critical,Medium,Power Block,Yes,77.61
+TASK-00066,AST-00011,Electrical,Overhaul,SEC-002,LKO,2026-08-30,2026-10-10,660,Inspection,Pending,High,Medium,Low,Line Block,No,49.8
+TASK-00067,AST-00036,S&T,Testing,SEC-019,GAYA,2026-08-16,2026-12-06,149,Inspection,Completed,High,Medium,Critical,Traffic Block,Yes,60.58
+TASK-00068,AST-00033,Engineering,Overhaul,SEC-005,ALD,2026-06-16,2026-09-04,434,Inspection,Pending,Medium,Critical,High,Power Block,No,66.73
+TASK-00069,AST-00122,Engineering,Overhaul,SEC-004,BBS,2026-08-24,2026-09-24,564,Emergency,In Progress,High,Medium,High,Traffic Block,Yes,56.62
+TASK-00070,AST-00086,S&T,Corrective Maintenance,SEC-011,NDLS,2026-06-27,2026-08-12,300,Inspection,Pending,Medium,Medium,Low,Power Block,Yes,48.03
+TASK-00071,AST-00080,Electrical,Preventive Maintenance,SEC-019,LDH,2026-04-14,2026-05-03,125,Inspection,Completed,High,Critical,High,Traffic Block,Yes,82.91
+TASK-00072,AST-00089,Engineering,Overhaul,SEC-003,JP,2026-04-13,2026-05-22,436,Inspection,Completed,High,Medium,High,Power Block,Yes,71.41
+TASK-00073,AST-00191,Engineering,Testing,SEC-017,HWH,2026-06-27,2026-06-30,118,Inspection,Pending,Medium,Critical,Low,Power Block,Yes,64.8
+TASK-00074,AST-00104,Electrical,Testing,SEC-020,PNBE,2026-07-08,2026-10-03,53,Corrective,In Progress,High,Medium,High,No Block,Yes,53.5
+TASK-00075,AST-00024,S&T,Preventive Maintenance,SEC-001,ANVT,2026-07-28,2026-08-23,188,Emergency,Scheduled,Low,Critical,Low,Power Block,No,48.04
+TASK-00076,AST-00077,S&T,Testing,SEC-003,DLI,2026-08-22,2026-09-10,146,Corrective,In Progress,Medium,Low,Medium,Power Block,Yes,34.42
+TASK-00077,AST-00126,Engineering,Repair,SEC-015,CNB,2026-07-05,2026-09-18,361,Emergency,Scheduled,High,High,Medium,Traffic Block,Yes,60.16
+TASK-00078,AST-00172,Engineering,Overhaul,SEC-013,DLI,2026-03-15,2026-04-23,492,Inspection,Pending,Low,Medium,Medium,Traffic Block,Yes,43.84
+TASK-00079,AST-00070,S&T,Repair,SEC-013,PNBE,2026-03-16,2026-05-25,370,Corrective,Pending,Medium,Medium,Medium,Power Block,Yes,52.54
+TASK-00080,AST-00051,Electrical,Overhaul,SEC-009,ANVT,2026-06-10,2026-06-23,381,Emergency,Pending,High,Critical,Critical,Power Block,Yes,91.86
+TASK-00081,AST-00020,S&T,Inspection,SEC-002,LKO,2026-03-31,2026-06-16,72,Preventive,In Progress,High,High,Critical,No Block,No,74.98
+TASK-00082,AST-00109,Electrical,Corrective Maintenance,SEC-004,CNB,2026-04-11,2026-04-12,218,Corrective,Pending,High,Medium,High,Traffic Block,Yes,66.35
+TASK-00083,AST-00092,S&T,Preventive Maintenance,SEC-007,ALD,2026-07-05,2026-07-12,89,Inspection,Pending,High,High,Medium,No Block,No,63.72
+TASK-00084,AST-00057,S&T,Corrective Maintenance,SEC-007,ASR,2026-03-26,2026-06-01,121,Inspection,Pending,High,High,Critical,Traffic Block,No,81.61
+TASK-00085,AST-00060,S&T,Preventive Maintenance,SEC-003,JP,2026-08-04,2026-08-13,222,Emergency,Pending,Low,High,Low,Traffic Block,No,42.96
+TASK-00086,AST-00028,S&T,Testing,SEC-011,GZB,2026-03-27,2026-06-19,161,Corrective,In Progress,Medium,High,Medium,Power Block,Yes,60.57
+TASK-00087,AST-00068,Electrical,Overhaul,SEC-018,ANVT,2026-06-07,2026-06-27,289,Inspection,Scheduled,High,Critical,High,Line Block,No,90.29
+TASK-00088,AST-00148,S&T,Repair,SEC-003,HWH,2026-03-23,2026-04-08,267,Emergency,Pending,Medium,Medium,Medium,Traffic Block,Yes,55.16
+TASK-00089,AST-00035,Engineering,Testing,SEC-006,ANVT,2026-08-14,2026-09-28,51,Emergency,In Progress,High,Medium,High,Traffic Block,Yes,59.08
+TASK-00090,AST-00105,S&T,Corrective Maintenance,SEC-009,BBS,2026-06-23,2026-10-19,163,Emergency,Scheduled,Medium,Low,Medium,Traffic Block,Yes,31.65
+TASK-00091,AST-00142,S&T,Repair,SEC-004,MTC,2026-06-06,2026-07-30,286,Emergency,Pending,Low,Critical,Low,Line Block,Yes,53.83
+TASK-00092,AST-00116,S&T,Repair,SEC-007,GAYA,2026-05-20,2026-08-13,259,Inspection,Scheduled,Medium,Medium,Medium,Power Block,Yes,51.67
+TASK-00093,AST-00162,Electrical,Corrective Maintenance,SEC-019,LKO,2026-04-29,2026-07-24,118,Preventive,Pending,Medium,Critical,Medium,Power Block,Yes,63.96
+TASK-00094,AST-00005,Engineering,Preventive Maintenance,SEC-003,LDH,2026-05-23,2026-06-15,240,Inspection,Scheduled,High,Medium,Critical,Traffic Block,Yes,71.43
+TASK-00095,AST-00018,S&T,Corrective Maintenance,SEC-005,UMB,2026-08-22,2026-12-11,303,Inspection,In Progress,Low,High,Low,Line Block,Yes,38.95
+TASK-00096,AST-00011,Electrical,Repair,SEC-002,LKO,2026-06-10,2026-06-22,388,Preventive,Scheduled,High,Critical,Medium,Traffic Block,Yes,82.74
+TASK-00097,AST-00184,Electrical,Preventive Maintenance,SEC-003,BBS,2026-04-28,2026-07-03,225,Emergency,Completed,Medium,High,Medium,Line Block,Yes,61.82
+TASK-00098,AST-00027,S&T,Repair,SEC-014,BPL,2026-04-03,2026-06-06,441,Inspection,Scheduled,Low,Medium,Low,Power Block,No,30.68
+TASK-00099,AST-00118,Engineering,Inspection,SEC-005,BPL,2026-06-12,2026-08-16,89,Emergency,Pending,Medium,Medium,High,Line Block,Yes,58.3
+TASK-00100,AST-00045,Engineering,Testing,SEC-005,HWH,2026-04-15,2026-06-25,173,Preventive,Completed,Medium,Medium,Low,Traffic Block,No,48.99
+TASK-00101,AST-00165,Engineering,Overhaul,SEC-003,BBS,2026-08-20,2026-10-24,507,Corrective,Pending,Medium,Low,High,Power Block,Yes,40.75
+TASK-00102,AST-00168,Engineering,Testing,SEC-012,ASR,2026-04-10,2026-04-17,117,Emergency,Pending,Medium,High,High,Line Block,No,63.74
+TASK-00103,AST-00186,Engineering,Preventive Maintenance,SEC-011,ANVT,2026-04-14,2026-07-08,227,Emergency,In Progress,Medium,High,Medium,Power Block,No,60.88
+TASK-00104,AST-00070,S&T,Replacement,SEC-013,PNBE,2026-03-19,2026-07-14,365,Preventive,Scheduled,Medium,High,High,Power Block,No,67.18
+TASK-00105,AST-00096,Engineering,Preventive Maintenance,SEC-009,NGP,2026-07-15,2026-08-02,85,Preventive,Pending,Medium,Medium,Medium,Traffic Block,Yes,50.22
+TASK-00106,AST-00179,Electrical,Overhaul,SEC-011,MTC,2026-07-26,2026-11-10,608,Corrective,Pending,High,High,High,Line Block,No,68.96
+TASK-00107,AST-00123,S&T,Testing,SEC-003,NGP,2026-07-11,2026-08-20,142,Inspection,Completed,Medium,High,Medium,Traffic Block,No,62.58
+TASK-00108,AST-00069,S&T,Corrective Maintenance,SEC-003,ASR,2026-08-06,2026-11-26,280,Preventive,Completed,High,Medium,Medium,Traffic Block,Yes,52.99
+TASK-00109,AST-00026,Engineering,Repair,SEC-008,NGP,2026-08-04,2026-11-19,133,Preventive,Pending,High,Low,Medium,Traffic Block,Yes,41.33
+TASK-00110,AST-00076,Electrical,Overhaul,SEC-003,NGP,2026-08-16,2026-12-02,596,Emergency,Pending,High,Medium,High,Line Block,Yes,63.54
+TASK-00111,AST-00199,Engineering,Testing,SEC-011,GZB,2026-07-07,2026-08-04,118,Corrective,In Progress,High,High,Medium,Traffic Block,Yes,70.23
+TASK-00112,AST-00185,S&T,Inspection,SEC-012,UMB,2026-05-16,2026-05-25,106,Inspection,Pending,Medium,Critical,Low,Traffic Block,Yes,64.97
+TASK-00113,AST-00029,S&T,Overhaul,SEC-009,BPL,2026-05-27,2026-06-20,499,Preventive,Pending,Medium,High,Medium,Power Block,Yes,56.53
+TASK-00114,AST-00008,Engineering,Overhaul,SEC-008,GZB,2026-06-07,2026-07-10,576,Preventive,Pending,Medium,Critical,Medium,Power Block,Yes,69.05
+TASK-00115,AST-00061,Electrical,Overhaul,SEC-008,ALD,2026-06-16,2026-09-29,655,Corrective,Pending,High,Low,High,Power Block,Yes,51.35
+TASK-00116,AST-00006,Engineering,Inspection,SEC-015,HWH,2026-07-21,2026-11-12,69,Emergency,Completed,Medium,Medium,Low,No Block,No,31.87
+TASK-00117,AST-00069,S&T,Inspection,SEC-003,ASR,2026-06-18,2026-07-23,85,Emergency,In Progress,High,Critical,High,Power Block,No,91.47
+TASK-00118,AST-00111,S&T,Replacement,SEC-017,NDLS,2026-08-21,2026-10-16,220,Corrective,Scheduled,High,Low,High,Power Block,Yes,50.74
+TASK-00119,AST-00009,Electrical,Overhaul,SEC-012,ALD,2026-05-19,2026-05-25,269,Emergency,In Progress,Medium,Critical,Medium,Line Block,No,67.41
+TASK-00120,AST-00072,S&T,Testing,SEC-016,LKO,2026-09-03,2026-09-22,138,Inspection,In Progress,High,Medium,Critical,Traffic Block,Yes,64.13
+TASK-00121,AST-00045,Engineering,Repair,SEC-005,HWH,2026-06-08,2026-07-26,323,Preventive,Scheduled,Medium,High,Low,Line Block,Yes,57.11
+TASK-00122,AST-00144,S&T,Corrective Maintenance,SEC-019,MTC,2026-04-20,2026-05-06,199,Emergency,Completed,Medium,High,Low,Traffic Block,Yes,58.76
+TASK-00123,AST-00197,S&T,Testing,SEC-014,ANVT,2026-05-20,2026-06-01,121,Emergency,In Progress,High,Critical,High,Line Block,Yes,87.29
+TASK-00124,AST-00044,S&T,Inspection,SEC-009,CNB,2026-05-03,2026-06-01,47,Corrective,Pending,High,High,Critical,No Block,No,76.53
+TASK-00125,AST-00147,Engineering,Overhaul,SEC-003,ALD,2026-06-01,2026-09-01,304,Inspection,Pending,High,Critical,High,Line Block,Yes,78.82
+TASK-00126,AST-00141,Electrical,Replacement,SEC-020,LKO,2026-04-22,2026-07-13,243,Corrective,Completed,High,High,Medium,Line Block,Yes,71.14
+TASK-00127,AST-00099,Electrical,Corrective Maintenance,SEC-019,GAYA,2026-05-01,2026-08-24,230,Preventive,In Progress,High,High,Medium,Line Block,Yes,72.81
+TASK-00128,AST-00069,S&T,Testing,SEC-003,ASR,2026-04-09,2026-05-23,112,Preventive,Pending,High,Critical,High,Power Block,Yes,86.66
+TASK-00129,AST-00127,Electrical,Corrective Maintenance,SEC-012,ASR,2026-04-03,2026-06-12,297,Emergency,Scheduled,High,Medium,High,Power Block,Yes,65.76
+TASK-00130,AST-00089,Engineering,Overhaul,SEC-003,JP,2026-06-22,2026-10-11,527,Emergency,Pending,High,Low,High,Power Block,Yes,52.29
+TASK-00131,AST-00005,Engineering,Repair,SEC-003,LDH,2026-08-29,2026-10-06,415,Inspection,Completed,High,High,High,Line Block,Yes,67.21
+TASK-00132,AST-00115,Electrical,Inspection,SEC-017,AGC,2026-05-06,2026-05-09,94,Inspection,Pending,High,Medium,High,Line Block,Yes,71.17
+TASK-00133,AST-00157,Engineering,Inspection,SEC-013,ASR,2026-09-08,2026-12-26,47,Inspection,Pending,High,Low,High,No Block,Yes,45.42
+TASK-00134,AST-00045,Engineering,Replacement,SEC-005,HWH,2026-05-18,2026-08-24,229,Emergency,Pending,Medium,Critical,Medium,Power Block,No,70.19
+TASK-00135,AST-00093,Electrical,Replacement,SEC-004,ALD,2026-05-03,2026-06-24,591,Preventive,Completed,High,High,High,Line Block,Yes,77.27
+TASK-00136,AST-00028,S&T,Repair,SEC-011,GZB,2026-06-21,2026-07-12,380,Emergency,Completed,Medium,High,Low,Power Block,Yes,58.27
+TASK-00137,AST-00153,Engineering,Testing,SEC-017,JP,2026-04-14,2026-05-24,103,Preventive,In Progress,Low,Critical,Low,Traffic Block,Yes,55.57
+TASK-00138,AST-00160,S&T,Testing,SEC-012,ASR,2026-06-05,2026-06-24,125,Corrective,In Progress,High,High,High,Traffic Block,Yes,76.31
+TASK-00139,AST-00153,Engineering,Testing,SEC-017,JP,2026-05-13,2026-09-02,167,Preventive,Scheduled,Low,High,Low,Traffic Block,Yes,37.79
+TASK-00140,AST-00186,Engineering,Overhaul,SEC-011,ANVT,2026-04-24,2026-06-09,525,Emergency,In Progress,Medium,High,High,Power Block,No,65.85
+TASK-00141,AST-00200,Engineering,Repair,SEC-005,NGP,2026-03-18,2026-06-17,267,Emergency,Completed,High,Critical,High,Power Block,No,88.44
+TASK-00142,AST-00138,Electrical,Corrective Maintenance,SEC-011,GZB,2026-06-28,2026-07-04,221,Preventive,In Progress,Medium,Critical,Medium,Traffic Block,Yes,67.6
+TASK-00143,AST-00006,Engineering,Inspection,SEC-015,HWH,2026-07-11,2026-08-12,111,Corrective,Completed,Medium,Medium,Medium,Traffic Block,No,50.08
+TASK-00144,AST-00020,S&T,Overhaul,SEC-002,LKO,2026-08-01,2026-09-23,386,Inspection,In Progress,High,High,Medium,Line Block,Yes,54.3
+TASK-00145,AST-00011,Electrical,Preventive Maintenance,SEC-002,LKO,2026-09-01,2026-12-27,69,Inspection,Completed,High,Medium,Low,No Block,Yes,38.57
+TASK-00146,AST-00197,S&T,Overhaul,SEC-014,ANVT,2026-06-30,2026-08-28,654,Inspection,Pending,High,High,High,Line Block,Yes,70.78
+TASK-00147,AST-00185,S&T,Corrective Maintenance,SEC-012,UMB,2026-06-16,2026-09-26,297,Corrective,Completed,Medium,Medium,Low,Traffic Block,Yes,35.55
+TASK-00148,AST-00038,Electrical,Repair,SEC-015,RE,2026-09-09,2026-10-13,274,Corrective,Pending,Medium,Low,Medium,Traffic Block,Yes,36.33
+TASK-00149,AST-00138,Electrical,Repair,SEC-011,GZB,2026-06-24,2026-07-15,308,Emergency,Scheduled,Medium,Critical,Medium,Power Block,No,73.63
+TASK-00150,AST-00133,S&T,Replacement,SEC-009,NDLS,2026-05-27,2026-08-25,528,Inspection,Scheduled,Medium,High,Medium,Power Block,Yes,54.49
+TASK-00151,AST-00148,S&T,Replacement,SEC-003,HWH,2026-08-26,2026-12-11,347,Corrective,Pending,Medium,Low,Medium,Line Block,Yes,36.36
+TASK-00152,AST-00155,Engineering,Testing,SEC-005,AGC,2026-05-03,2026-06-30,59,Preventive,Pending,Medium,High,Medium,No Block,Yes,56.15
+TASK-00153,AST-00095,Engineering,Preventive Maintenance,SEC-004,NDLS,2026-09-10,2026-12-15,168,Preventive,Scheduled,Medium,High,Low,Power Block,Yes,42.3
+TASK-00154,AST-00076,Electrical,Overhaul,SEC-003,NGP,2026-08-07,2026-11-14,281,Inspection,Pending,High,Medium,Medium,Traffic Block,No,49.35
+TASK-00155,AST-00007,Electrical,Preventive Maintenance,SEC-019,ALD,2026-08-09,2026-11-11,136,Preventive,Pending,High,Low,Critical,Traffic Block,Yes,51.36
+TASK-00156,AST-00088,S&T,Overhaul,SEC-014,NGP,2026-07-24,2026-11-21,719,Preventive,Scheduled,Medium,Low,Low,Line Block,Yes,25.16
+TASK-00157,AST-00154,S&T,Inspection,SEC-004,NGP,2026-03-14,2026-07-04,35,Corrective,Scheduled,High,Medium,Critical,No Block,No,67.45
+TASK-00158,AST-00135,S&T,Testing,SEC-004,DLI,2026-04-16,2026-07-02,150,Emergency,Completed,High,High,Low,Line Block,No,68.65
+TASK-00159,AST-00120,Engineering,Repair,SEC-011,NGP,2026-04-03,2026-06-29,388,Inspection,Scheduled,Medium,High,Low,Traffic Block,No,57.43
+TASK-00160,AST-00055,S&T,Testing,SEC-012,ASR,2026-07-15,2026-08-23,79,Corrective,Scheduled,High,High,Medium,No Block,Yes,71.38
+TASK-00161,AST-00119,Engineering,Replacement,SEC-011,ALD,2026-06-08,2026-06-20,489,Corrective,Scheduled,High,Critical,Medium,Line Block,No,82.68
+TASK-00162,AST-00101,S&T,Testing,SEC-015,GAYA,2026-05-11,2026-06-07,167,Emergency,Completed,High,Critical,High,Line Block,Yes,86.31
+TASK-00163,AST-00180,Electrical,Testing,SEC-019,DLI,2026-04-22,2026-06-03,176,Emergency,Completed,High,Critical,High,Line Block,Yes,91.49
+TASK-00164,AST-00085,Electrical,Corrective Maintenance,SEC-008,ANVT,2026-07-20,2026-09-06,203,Inspection,Completed,Medium,High,Low,Traffic Block,Yes,45.73
+TASK-00165,AST-00029,S&T,Overhaul,SEC-009,BPL,2026-05-06,2026-07-16,615,Emergency,Completed,Medium,Medium,Medium,Power Block,Yes,53.25
+TASK-00166,AST-00136,Engineering,Replacement,SEC-010,RE,2026-03-30,2026-04-07,391,Preventive,Pending,High,Medium,Medium,Traffic Block,Yes,60.96
+TASK-00167,AST-00195,S&T,Overhaul,SEC-006,ALD,2026-04-05,2026-06-26,522,Inspection,Pending,Medium,Low,Medium,Power Block,Yes,42.35
+TASK-00168,AST-00116,S&T,Overhaul,SEC-007,GAYA,2026-05-05,2026-08-18,363,Inspection,Pending,Medium,High,Low,Power Block,Yes,52.48
+TASK-00169,AST-00100,S&T,Repair,SEC-009,ANVT,2026-06-07,2026-07-29,470,Corrective,Scheduled,High,Medium,High,Line Block,Yes,70.09
+TASK-00170,AST-00099,Electrical,Inspection,SEC-019,GAYA,2026-03-15,2026-04-06,85,Inspection,Scheduled,High,Critical,Medium,Line Block,No,81.54
+TASK-00171,AST-00096,Engineering,Inspection,SEC-009,NGP,2026-08-30,2026-12-27,99,Emergency,Completed,Medium,Medium,Medium,Line Block,No,42.0
+TASK-00172,AST-00029,S&T,Replacement,SEC-009,BPL,2026-06-26,2026-07-17,566,Corrective,Completed,Medium,Critical,Medium,Traffic Block,Yes,69.13
+TASK-00173,AST-00049,S&T,Repair,SEC-009,CNB,2026-08-28,2026-09-10,287,Corrective,Completed,High,Critical,High,Traffic Block,Yes,69.93
+TASK-00174,AST-00094,S&T,Overhaul,SEC-009,DLI,2026-05-23,2026-06-16,277,Inspection,Pending,Medium,High,Medium,Line Block,Yes,60.28
+TASK-00175,AST-00153,Engineering,Inspection,SEC-017,JP,2026-06-10,2026-06-24,69,Preventive,Pending,Low,High,Low,No Block,Yes,41.65
+TASK-00176,AST-00010,S&T,Inspection,SEC-006,BPL,2026-06-12,2026-08-22,79,Emergency,Pending,Medium,Critical,Medium,Traffic Block,Yes,69.88
+TASK-00177,AST-00170,S&T,Preventive Maintenance,SEC-005,AGC,2026-06-05,2026-06-27,128,Emergency,Completed,High,High,Medium,Traffic Block,Yes,68.18
+TASK-00178,AST-00148,S&T,Replacement,SEC-003,HWH,2026-04-03,2026-06-06,183,Corrective,Scheduled,Medium,Critical,Medium,Power Block,Yes,65.42
+TASK-00179,AST-00052,Electrical,Preventive Maintenance,SEC-001,GZB,2026-03-28,2026-06-13,214,Emergency,Completed,Low,Critical,Low,Line Block,Yes,60.21
+TASK-00180,AST-00101,S&T,Repair,SEC-015,GAYA,2026-07-10,2026-08-21,408,Emergency,In Progress,High,Critical,High,Line Block,Yes,80.77
+TASK-00181,AST-00067,Engineering,Corrective Maintenance,SEC-008,AGC,2026-05-21,2026-09-01,345,Preventive,Pending,High,High,Medium,Power Block,No,65.01
+TASK-00182,AST-00109,Electrical,Replacement,SEC-004,CNB,2026-04-10,2026-06-11,198,Inspection,Pending,High,Critical,Critical,Line Block,Yes,97.53
+TASK-00183,AST-00008,Engineering,Overhaul,SEC-008,GZB,2026-07-09,2026-10-02,586,Emergency,Pending,Medium,Critical,Medium,Power Block,Yes,51.7
+TASK-00184,AST-00164,Electrical,Overhaul,SEC-012,NDLS,2026-07-16,2026-09-20,587,Corrective,Scheduled,Medium,Low,Critical,Power Block,Yes,42.29
+TASK-00185,AST-00046,Engineering,Testing,SEC-010,UMB,2026-08-20,2026-09-04,178,Corrective,Scheduled,Medium,High,Medium,Power Block,No,47.39
+TASK-00186,AST-00016,Engineering,Inspection,SEC-004,HWH,2026-08-24,2026-10-02,32,Preventive,Scheduled,High,Medium,High,No Block,Yes,46.54
+TASK-00187,AST-00174,S&T,Preventive Maintenance,SEC-020,BPL,2026-05-30,2026-08-19,228,Corrective,Pending,Medium,High,Medium,Traffic Block,No,55.77
+TASK-00188,AST-00099,Electrical,Testing,SEC-019,GAYA,2026-03-14,2026-06-26,162,Preventive,Scheduled,High,Medium,High,Power Block,Yes,70.13
+TASK-00189,AST-00022,S&T,Replacement,SEC-018,ALD,2026-04-11,2026-05-31,414,Inspection,Scheduled,Medium,Critical,Medium,Power Block,No,67.04
+TASK-00190,AST-00177,Electrical,Corrective Maintenance,SEC-005,LKO,2026-03-22,2026-04-09,149,Preventive,Scheduled,High,High,High,Traffic Block,Yes,74.4
+TASK-00191,AST-00100,S&T,Replacement,SEC-009,ANVT,2026-05-09,2026-07-30,251,Corrective,Scheduled,High,Critical,High,Power Block,No,84.4
+TASK-00192,AST-00106,Electrical,Repair,SEC-020,AGC,2026-07-23,2026-11-05,332,Inspection,Pending,Low,Low,Low,Traffic Block,No,20.79
+TASK-00193,AST-00106,Electrical,Preventive Maintenance,SEC-020,AGC,2026-09-02,2026-10-08,177,Emergency,In Progress,Low,Medium,Low,Power Block,Yes,30.61
+TASK-00194,AST-00025,Engineering,Preventive Maintenance,SEC-017,LKO,2026-05-21,2026-07-30,227,Inspection,Pending,Medium,High,High,Power Block,No,66.05
+TASK-00195,AST-00029,S&T,Testing,SEC-009,BPL,2026-07-12,2026-08-08,97,Emergency,Pending,Medium,Critical,High,Line Block,Yes,80.87
+TASK-00196,AST-00086,S&T,Corrective Maintenance,SEC-011,NDLS,2026-04-26,2026-05-18,226,Emergency,Completed,Medium,Medium,Medium,Power Block,No,49.4
+TASK-00197,AST-00109,Electrical,Overhaul,SEC-004,CNB,2026-03-27,2026-04-13,671,Corrective,Pending,High,High,High,Power Block,Yes,78.42
+TASK-00198,AST-00123,S&T,Testing,SEC-003,NGP,2026-08-22,2026-11-12,169,Preventive,Completed,Medium,Low,Low,Line Block,Yes,28.28
+TASK-00199,AST-00143,S&T,Overhaul,SEC-018,MTC,2026-04-01,2026-06-26,662,Emergency,Scheduled,Medium,High,Medium,Power Block,Yes,62.58
+TASK-00200,AST-00149,S&T,Repair,SEC-020,NDLS,2026-04-19,2026-08-07,170,Emergency,Pending,High,Low,Critical,Traffic Block,Yes,63.27
+TASK-00201,AST-00184,Electrical,Overhaul,SEC-003,BBS,2026-05-24,2026-06-19,575,Corrective,Pending,Medium,High,Medium,Line Block,Yes,63.6
+TASK-00202,AST-00087,Electrical,Overhaul,SEC-011,AGC,2026-06-24,2026-09-25,240,Corrective,Scheduled,High,Medium,Medium,Traffic Block,Yes,46.71
+TASK-00203,AST-00176,S&T,Corrective Maintenance,SEC-003,BBS,2026-09-08,2026-12-07,157,Preventive,Completed,High,Low,Critical,Traffic Block,Yes,53.6
+TASK-00204,AST-00082,Electrical,Testing,SEC-003,BBS,2026-08-06,2026-09-24,47,Corrective,In Progress,High,Medium,Medium,No Block,Yes,48.83
+TASK-00205,AST-00020,S&T,Overhaul,SEC-002,LKO,2026-05-28,2026-08-15,303,Inspection,Scheduled,High,High,High,Traffic Block,Yes,76.65
+TASK-00206,AST-00195,S&T,Replacement,SEC-006,ALD,2026-07-09,2026-09-18,445,Emergency,Completed,Medium,Low,Medium,Line Block,Yes,27.25
+TASK-00207,AST-00185,S&T,Repair,SEC-012,UMB,2026-07-11,2026-09-13,390,Preventive,Scheduled,Medium,Medium,High,Line Block,Yes,47.6
+TASK-00208,AST-00100,S&T,Repair,SEC-009,ANVT,2026-07-28,2026-11-03,127,Preventive,Scheduled,High,High,Critical,Power Block,Yes,71.9
+TASK-00209,AST-00022,S&T,Repair,SEC-018,ALD,2026-05-05,2026-08-12,447,Inspection,Completed,Medium,High,Medium,Line Block,No,61.84
+TASK-00210,AST-00164,Electrical,Corrective Maintenance,SEC-012,NDLS,2026-08-02,2026-10-10,123,Inspection,Scheduled,Medium,Low,Low,Power Block,Yes,28.41
+TASK-00211,AST-00146,Engineering,Overhaul,SEC-012,HWH,2026-08-27,2026-10-06,323,Corrective,Pending,High,Critical,High,Line Block,Yes,75.12
+TASK-00212,AST-00044,S&T,Inspection,SEC-009,CNB,2026-07-04,2026-10-06,72,Preventive,Pending,High,Medium,High,No Block,No,53.78
+TASK-00213,AST-00098,S&T,Testing,SEC-017,LDH,2026-08-01,2026-09-03,45,Preventive,Pending,Medium,Medium,High,No Block,Yes,39.98
+TASK-00214,AST-00147,Engineering,Testing,SEC-003,ALD,2026-08-03,2026-08-26,151,Preventive,Pending,High,Critical,Medium,Traffic Block,Yes,76.13
+TASK-00215,AST-00132,Engineering,Inspection,SEC-008,LDH,2026-03-22,2026-07-16,58,Corrective,Scheduled,Low,Critical,Medium,No Block,Yes,50.38
+TASK-00216,AST-00089,Engineering,Corrective Maintenance,SEC-003,JP,2026-06-08,2026-07-04,327,Emergency,Completed,High,Critical,High,Traffic Block,Yes,86.98
+TASK-00217,AST-00104,Electrical,Replacement,SEC-020,PNBE,2026-09-04,2026-10-04,180,Emergency,Completed,High,High,High,Traffic Block,Yes,68.25
+TASK-00218,AST-00168,Engineering,Inspection,SEC-012,ASR,2026-05-26,2026-07-28,65,Corrective,Scheduled,Medium,High,Medium,No Block,Yes,55.41
+TASK-00219,AST-00179,Electrical,Replacement,SEC-011,MTC,2026-06-02,2026-06-12,329,Preventive,Scheduled,High,Critical,High,Line Block,Yes,87.4
+TASK-00220,AST-00035,Engineering,Preventive Maintenance,SEC-006,ANVT,2026-07-13,2026-07-23,87,Corrective,Scheduled,High,High,Medium,No Block,No,65.3
+TASK-00221,AST-00060,S&T,Testing,SEC-003,JP,2026-05-15,2026-06-18,55,Preventive,Completed,Low,High,Medium,No Block,No,49.48
+TASK-00222,AST-00053,Engineering,Inspection,SEC-020,ASR,2026-06-01,2026-08-06,63,Emergency,Completed,Medium,Medium,Low,Traffic Block,Yes,45.27
+TASK-00223,AST-00165,Engineering,Preventive Maintenance,SEC-003,BBS,2026-07-16,2026-08-02,235,Inspection,Pending,Medium,Medium,Low,Line Block,Yes,49.06
+TASK-00224,AST-00145,Electrical,Inspection,SEC-002,UMB,2026-06-18,2026-07-04,36,Inspection,Pending,Low,Critical,Low,No Block,Yes,50.1
+TASK-00225,AST-00044,S&T,Replacement,SEC-009,CNB,2026-08-03,2026-08-08,461,Corrective,Completed,High,Medium,High,Power Block,Yes,71.55
+TASK-00226,AST-00092,S&T,Overhaul,SEC-007,ALD,2026-04-29,2026-05-31,488,Preventive,Pending,High,Critical,High,Power Block,Yes,87.82
+TASK-00227,AST-00017,Engineering,Inspection,SEC-009,BBS,2026-04-11,2026-05-10,37,Emergency,In Progress,High,High,Medium,No Block,No,67.42
+TASK-00228,AST-00144,S&T,Testing,SEC-019,MTC,2026-07-16,2026-09-28,136,Inspection,Scheduled,Medium,High,Low,Line Block,Yes,49.09
+TASK-00229,AST-00194,Engineering,Preventive Maintenance,SEC-007,UMB,2026-08-05,2026-10-17,139,Inspection,Pending,High,Low,Medium,Line Block,Yes,47.34
+TASK-00230,AST-00019,Electrical,Testing,SEC-016,NDLS,2026-04-06,2026-05-02,81,Corrective,Completed,Low,Critical,Medium,Traffic Block,Yes,59.51
+TASK-00231,AST-00112,Engineering,Inspection,SEC-015,DLI,2026-06-01,2026-08-16,68,Emergency,Scheduled,High,Critical,Medium,Line Block,No,76.1
+TASK-00232,AST-00182,S&T,Overhaul,SEC-015,PNBE,2026-06-11,2026-07-10,613,Corrective,In Progress,Low,Critical,Medium,Power Block,No,63.18
+TASK-00233,AST-00188,S&T,Preventive Maintenance,SEC-005,GAYA,2026-04-18,2026-04-23,116,Emergency,Completed,High,High,Critical,Traffic Block,Yes,76.66
+TASK-00234,AST-00016,Engineering,Overhaul,SEC-004,HWH,2026-03-23,2026-06-13,594,Emergency,Pending,High,High,High,Line Block,Yes,76.66
+TASK-00235,AST-00175,S&T,Repair,SEC-017,ANVT,2026-05-26,2026-06-17,171,Inspection,Pending,High,Medium,Low,Traffic Block,Yes,60.41
+TASK-00236,AST-00107,Engineering,Corrective Maintenance,SEC-009,PNBE,2026-08-15,2026-08-25,128,Corrective,Completed,Medium,Critical,Medium,Line Block,Yes,67.65
+TASK-00237,AST-00013,Electrical,Inspection,SEC-019,ASR,2026-08-01,2026-08-08,56,Emergency,Scheduled,Low,Critical,Low,No Block,Yes,49.08
+TASK-00238,AST-00164,Electrical,Inspection,SEC-012,NDLS,2026-05-08,2026-05-28,30,Emergency,Pending,Medium,High,Low,No Block,Yes,43.3
+TASK-00239,AST-00111,S&T,Testing,SEC-017,NDLS,2026-08-12,2026-09-21,144,Inspection,Pending,High,Low,Critical,Power Block,Yes,56.53
+TASK-00240,AST-00116,S&T,Corrective Maintenance,SEC-007,GAYA,2026-05-21,2026-07-20,121,Corrective,In Progress,Medium,Medium,Medium,Line Block,Yes,55.87
+TASK-00241,AST-00165,Engineering,Inspection,SEC-003,BBS,2026-07-14,2026-09-23,96,Inspection,Scheduled,Medium,Low,High,Line Block,Yes,38.51
+TASK-00242,AST-00028,S&T,Replacement,SEC-011,GZB,2026-05-01,2026-08-12,288,Corrective,Completed,Medium,Medium,Medium,Line Block,Yes,54.69
+TASK-00243,AST-00096,Engineering,Testing,SEC-009,NGP,2026-04-03,2026-04-22,128,Emergency,Scheduled,Medium,Critical,Medium,Traffic Block,No,67.2
+TASK-00244,AST-00138,Electrical,Repair,SEC-011,GZB,2026-04-30,2026-08-09,410,Preventive,Completed,Medium,Critical,Medium,Traffic Block,No,65.08
+TASK-00245,AST-00011,Electrical,Repair,SEC-002,LKO,2026-06-14,2026-10-05,412,Emergency,In Progress,High,Low,High,Line Block,Yes,50.38
+TASK-00246,AST-00197,S&T,Corrective Maintenance,SEC-014,ANVT,2026-09-01,2026-10-22,227,Corrective,Completed,High,Low,Critical,Line Block,Yes,57.43
+TASK-00247,AST-00116,S&T,Corrective Maintenance,SEC-007,GAYA,2026-07-14,2026-08-01,303,Inspection,In Progress,Medium,High,High,Power Block,No,65.7
+TASK-00248,AST-00036,S&T,Inspection,SEC-019,GAYA,2026-06-07,2026-09-21,38,Corrective,Completed,High,High,Low,No Block,No,48.65
+TASK-00249,AST-00020,S&T,Repair,SEC-002,LKO,2026-07-09,2026-07-14,260,Preventive,Pending,High,High,High,Traffic Block,Yes,75.06
+TASK-00250,AST-00103,Engineering,Repair,SEC-018,LKO,2026-05-08,2026-07-24,296,Corrective,Pending,High,Critical,High,Power Block,Yes,86.79
+TASK-00251,AST-00137,Electrical,Preventive Maintenance,SEC-017,BBS,2026-04-17,2026-07-26,117,Corrective,Completed,Low,Medium,Medium,Line Block,Yes,51.06
+TASK-00252,AST-00032,S&T,Replacement,SEC-009,BPL,2026-03-29,2026-04-21,320,Preventive,In Progress,Low,Critical,Low,Traffic Block,Yes,54.88
+TASK-00253,AST-00191,Engineering,Replacement,SEC-017,HWH,2026-04-04,2026-05-25,511,Preventive,Pending,Medium,High,Low,Traffic Block,Yes,52.82
+TASK-00254,AST-00032,S&T,Corrective Maintenance,SEC-009,BPL,2026-06-19,2026-10-08,242,Emergency,Pending,Low,High,Medium,Line Block,Yes,43.78
+TASK-00255,AST-00060,S&T,Inspection,SEC-003,JP,2026-08-06,2026-11-07,67,Inspection,Pending,Low,Medium,High,Power Block,No,38.1
+TASK-00256,AST-00164,Electrical,Testing,SEC-012,NDLS,2026-04-27,2026-07-18,91,Inspection,Completed,Medium,High,Medium,Line Block,Yes,67.24
+TASK-00257,AST-00151,Engineering,Corrective Maintenance,SEC-006,AGC,2026-07-26,2026-10-22,204,Preventive,Scheduled,Medium,Low,Medium,Power Block,No,30.13
+TASK-00258,AST-00131,Electrical,Replacement,SEC-014,AGC,2026-04-01,2026-06-15,528,Preventive,Pending,Low,High,Low,Traffic Block,Yes,47.9
+TASK-00259,AST-00157,Engineering,Repair,SEC-013,ASR,2026-05-29,2026-08-10,369,Corrective,In Progress,High,High,Low,Power Block,Yes,65.61
+TASK-00260,AST-00156,S&T,Testing,SEC-004,GZB,2026-07-29,2026-10-11,154,Corrective,Scheduled,Low,Low,High,Power Block,Yes,30.96
+TASK-00261,AST-00173,S&T,Corrective Maintenance,SEC-019,LDH,2026-06-07,2026-06-09,92,Corrective,Scheduled,Medium,Critical,Medium,Traffic Block,Yes,65.88
+TASK-00262,AST-00052,Electrical,Inspection,SEC-001,GZB,2026-06-24,2026-07-16,68,Preventive,Scheduled,Low,High,Medium,No Block,No,46.11
+TASK-00263,AST-00073,S&T,Testing,SEC-006,BPL,2026-07-24,2026-08-15,50,Inspection,Pending,Low,High,Low,No Block,Yes,36.02
+TASK-00264,AST-00111,S&T,Testing,SEC-017,NDLS,2026-03-31,2026-05-03,74,Preventive,Pending,High,High,High,No Block,Yes,72.55
+TASK-00265,AST-00191,Engineering,Overhaul,SEC-017,HWH,2026-03-17,2026-06-13,378,Preventive,Pending,Medium,High,High,Line Block,No,66.39
+TASK-00266,AST-00178,Engineering,Inspection,SEC-006,NGP,2026-08-12,2026-11-21,55,Inspection,Pending,Medium,Medium,Low,No Block,Yes,31.94
+TASK-00267,AST-00193,S&T,Preventive Maintenance,SEC-015,GAYA,2026-05-10,2026-06-22,231,Preventive,In Progress,High,Medium,Medium,Line Block,Yes,62.08
+TASK-00268,AST-00120,Engineering,Preventive Maintenance,SEC-011,NGP,2026-07-07,2026-09-28,127,Inspection,Pending,Medium,High,High,Power Block,No,54.56
+TASK-00269,AST-00110,S&T,Testing,SEC-018,DLI,2026-08-12,2026-08-25,157,Preventive,Completed,High,Critical,Medium,Line Block,Yes,71.92
+TASK-00270,AST-00148,S&T,Repair,SEC-003,HWH,2026-07-26,2026-08-10,473,Inspection,In Progress,Medium,Critical,Medium,Traffic Block,Yes,69.0
+TASK-00271,AST-00149,S&T,Repair,SEC-020,NDLS,2026-08-01,2026-08-15,212,Inspection,Pending,High,High,Critical,Line Block,No,85.59
+TASK-00272,AST-00120,Engineering,Repair,SEC-011,NGP,2026-05-09,2026-05-24,455,Inspection,Completed,Medium,Critical,Medium,Line Block,Yes,73.85
+TASK-00273,AST-00071,Engineering,Replacement,SEC-012,JP,2026-06-16,2026-08-22,357,Preventive,Scheduled,Medium,Medium,High,Line Block,Yes,55.09
+TASK-00274,AST-00038,Electrical,Testing,SEC-015,RE,2026-08-01,2026-10-05,129,Inspection,Pending,Medium,Critical,Low,Traffic Block,Yes,50.76
+TASK-00275,AST-00067,Engineering,Repair,SEC-008,AGC,2026-07-12,2026-07-23,375,Inspection,Scheduled,High,Critical,High,Traffic Block,Yes,86.0
+TASK-00276,AST-00159,Electrical,Inspection,SEC-005,HWH,2026-04-21,2026-07-01,107,Preventive,Completed,High,Critical,High,Traffic Block,No,86.94
+TASK-00277,AST-00114,Engineering,Testing,SEC-008,GZB,2026-06-18,2026-08-29,101,Inspection,Pending,Low,Low,Low,Line Block,No,23.99
+TASK-00278,AST-00116,S&T,Overhaul,SEC-007,GAYA,2026-04-30,2026-06-17,607,Preventive,Completed,Medium,Medium,Medium,Traffic Block,Yes,49.9
+TASK-00279,AST-00061,Electrical,Testing,SEC-008,ALD,2026-07-17,2026-09-14,76,Corrective,Scheduled,High,Critical,High,Line Block,Yes,77.72
+TASK-00280,AST-00142,S&T,Inspection,SEC-004,MTC,2026-04-28,2026-08-01,104,Inspection,Scheduled,Low,Critical,Low,Power Block,Yes,56.21
+TASK-00281,AST-00038,Electrical,Repair,SEC-015,RE,2026-06-20,2026-08-24,260,Inspection,Completed,Medium,High,Low,Power Block,Yes,47.03
+TASK-00282,AST-00178,Engineering,Testing,SEC-006,NGP,2026-05-02,2026-06-10,119,Emergency,In Progress,Medium,Critical,High,Traffic Block,No,72.91
+TASK-00283,AST-00098,S&T,Replacement,SEC-017,LDH,2026-07-27,2026-09-30,425,Emergency,Completed,Medium,Medium,High,Line Block,Yes,53.26
+TASK-00284,AST-00059,Engineering,Inspection,SEC-015,BPL,2026-09-07,2026-11-13,78,Preventive,Completed,Medium,Medium,Low,No Block,Yes,35.53
+TASK-00285,AST-00017,Engineering,Corrective Maintenance,SEC-009,BBS,2026-03-18,2026-06-27,273,Corrective,In Progress,High,Critical,High,Traffic Block,Yes,87.83
+TASK-00286,AST-00162,Electrical,Overhaul,SEC-019,LKO,2026-03-16,2026-04-22,522,Preventive,Completed,Medium,Low,Low,Line Block,No,39.59
+TASK-00287,AST-00044,S&T,Preventive Maintenance,SEC-009,CNB,2026-05-20,2026-09-04,199,Emergency,Pending,High,Critical,Low,Traffic Block,No,62.22
+TASK-00288,AST-00012,Electrical,Corrective Maintenance,SEC-007,NGP,2026-08-31,2026-10-25,220,Emergency,Completed,High,Low,Critical,Line Block,Yes,58.21
+TASK-00289,AST-00186,Engineering,Overhaul,SEC-011,ANVT,2026-04-06,2026-07-23,602,Emergency,Scheduled,Medium,High,High,Line Block,Yes,68.65
+TASK-00290,AST-00144,S&T,Replacement,SEC-019,MTC,2026-05-27,2026-08-05,519,Inspection,Completed,Medium,High,Low,Line Block,Yes,58.13
+TASK-00291,AST-00061,Electrical,Inspection,SEC-008,ALD,2026-03-28,2026-03-30,87,Emergency,In Progress,High,High,High,No Block,Yes,68.74
+TASK-00292,AST-00166,Electrical,Replacement,SEC-011,PNBE,2026-09-04,2026-12-30,202,Emergency,Completed,High,Low,Medium,Traffic Block,Yes,39.13
+TASK-00293,AST-00169,Electrical,Inspection,SEC-002,LKO,2026-04-26,2026-07-04,56,Preventive,Scheduled,High,High,Critical,Line Block,No,85.56
+TASK-00294,AST-00161,S&T,Overhaul,SEC-005,NGP,2026-08-23,2026-11-27,277,Corrective,Pending,Medium,Low,Low,Traffic Block,Yes,28.23
+TASK-00295,AST-00034,Electrical,Repair,SEC-002,DLI,2026-07-06,2026-08-28,281,Inspection,In Progress,Medium,High,Medium,Line Block,Yes,53.06
+TASK-00296,AST-00121,S&T,Testing,SEC-016,DLI,2026-08-30,2026-11-28,122,Preventive,Completed,High,Medium,Medium,Power Block,Yes,55.27
+TASK-00297,AST-00189,S&T,Preventive Maintenance,SEC-017,ANVT,2026-09-03,2026-11-03,160,Corrective,Pending,High,High,Low,Line Block,Yes,60.72
+TASK-00298,AST-00116,S&T,Repair,SEC-007,GAYA,2026-04-17,2026-07-03,228,Preventive,Pending,Medium,Medium,Low,Line Block,No,42.38
+TASK-00299,AST-00161,S&T,Testing,SEC-005,NGP,2026-07-26,2026-10-20,109,Preventive,Pending,Medium,Low,Medium,Power Block,No,29.7
+TASK-00300,AST-00037,Electrical,Preventive Maintenance,SEC-009,ALD,2026-03-23,2026-06-15,218,Preventive,Scheduled,High,High,High,Line Block,Yes,75.67
+TASK-00301,AST-00179,Electrical,Corrective Maintenance,SEC-011,MTC,2026-06-09,2026-09-21,250,Inspection,Completed,High,Medium,High,Line Block,No,56.87
+TASK-00302,AST-00014,Engineering,Corrective Maintenance,SEC-003,DLI,2026-05-15,2026-07-12,145,Emergency,Pending,High,Critical,Critical,Traffic Block,No,89.75
+TASK-00303,AST-00110,S&T,Overhaul,SEC-018,DLI,2026-04-03,2026-04-13,447,Preventive,Scheduled,High,Critical,High,Line Block,No,89.63
+TASK-00304,AST-00075,S&T,Preventive Maintenance,SEC-015,RE,2026-03-27,2026-07-05,117,Emergency,Completed,Medium,Medium,Medium,Traffic Block,Yes,47.84
+TASK-00305,AST-00041,Engineering,Preventive Maintenance,SEC-018,JP,2026-04-06,2026-07-03,100,Corrective,In Progress,High,Critical,High,Power Block,Yes,83.88
+TASK-00306,AST-00026,Engineering,Corrective Maintenance,SEC-008,NGP,2026-07-13,2026-07-22,195,Emergency,Scheduled,High,High,High,Traffic Block,Yes,75.3
+TASK-00307,AST-00195,S&T,Replacement,SEC-006,ALD,2026-08-15,2026-11-14,514,Emergency,Pending,Medium,Medium,High,Traffic Block,Yes,46.16
+TASK-00308,AST-00186,Engineering,Repair,SEC-011,ANVT,2026-07-15,2026-09-20,429,Emergency,Pending,Medium,Medium,Low,Line Block,Yes,37.12
+TASK-00309,AST-00176,S&T,Corrective Maintenance,SEC-003,BBS,2026-07-25,2026-08-15,302,Preventive,Completed,High,Critical,High,Line Block,Yes,89.01
+TASK-00310,AST-00052,Electrical,Inspection,SEC-001,GZB,2026-09-05,2026-10-07,103,Corrective,Pending,Low,High,Low,Traffic Block,Yes,32.06
+TASK-00311,AST-00152,Engineering,Replacement,SEC-016,BPL,2026-05-30,2026-08-15,409,Preventive,In Progress,High,Critical,Medium,Power Block,Yes,74.0
+TASK-00312,AST-00200,Engineering,Overhaul,SEC-005,NGP,2026-07-26,2026-10-14,542,Emergency,Scheduled,High,Low,High,Traffic Block,Yes,47.19
+TASK-00313,AST-00136,Engineering,Repair,SEC-010,RE,2026-05-04,2026-07-31,363,Corrective,In Progress,High,Critical,High,Traffic Block,Yes,92.71
+TASK-00314,AST-00197,S&T,Testing,SEC-014,ANVT,2026-04-09,2026-06-18,56,Preventive,Pending,High,Critical,High,Power Block,No,90.46
+TASK-00315,AST-00089,Engineering,Overhaul,SEC-003,JP,2026-04-13,2026-07-25,359,Preventive,Pending,High,High,Critical,Power Block,Yes,84.16
+TASK-00316,AST-00121,S&T,Replacement,SEC-016,DLI,2026-09-09,2026-11-22,285,Preventive,Pending,High,Low,Medium,Power Block,Yes,42.59
+TASK-00317,AST-00121,S&T,Replacement,SEC-016,DLI,2026-04-26,2026-06-20,391,Emergency,Pending,High,High,High,Power Block,Yes,78.12
+TASK-00318,AST-00180,Electrical,Overhaul,SEC-019,DLI,2026-06-14,2026-09-22,640,Inspection,Scheduled,High,Low,High,Power Block,No,51.02
+TASK-00319,AST-00047,Electrical,Inspection,SEC-018,ASR,2026-03-19,2026-06-18,79,Corrective,In Progress,High,Medium,Medium,No Block,Yes,56.61
+TASK-00320,AST-00149,S&T,Overhaul,SEC-020,NDLS,2026-05-31,2026-08-18,464,Emergency,Pending,High,High,High,Line Block,Yes,74.57
+TASK-00321,AST-00017,Engineering,Replacement,SEC-009,BBS,2026-04-10,2026-06-15,302,Corrective,Pending,High,Critical,Medium,Power Block,No,78.91
+TASK-00322,AST-00024,S&T,Replacement,SEC-001,ANVT,2026-06-01,2026-07-23,461,Corrective,Pending,Low,High,Medium,Traffic Block,Yes,49.38
+TASK-00323,AST-00039,Engineering,Inspection,SEC-003,HWH,2026-05-30,2026-08-12,52,Emergency,Completed,High,High,Critical,Power Block,No,83.34
+TASK-00324,AST-00063,Engineering,Overhaul,SEC-004,ASR,2026-04-16,2026-05-19,413,Inspection,Pending,Low,Critical,Medium,Traffic Block,Yes,58.72
+TASK-00325,AST-00030,Engineering,Testing,SEC-002,HWH,2026-06-05,2026-08-26,177,Corrective,Pending,Medium,High,Medium,Power Block,Yes,52.56
+TASK-00326,AST-00102,Engineering,Testing,SEC-003,LKO,2026-03-22,2026-06-26,100,Emergency,Completed,Low,Critical,Low,Line Block,Yes,56.3
+TASK-00327,AST-00173,S&T,Preventive Maintenance,SEC-019,LDH,2026-05-06,2026-08-09,127,Corrective,Pending,Medium,Critical,Medium,Traffic Block,Yes,68.55
+TASK-00328,AST-00174,S&T,Replacement,SEC-020,BPL,2026-03-25,2026-05-28,497,Preventive,Scheduled,Medium,Critical,High,Line Block,No,79.91
+TASK-00329,AST-00036,S&T,Repair,SEC-019,GAYA,2026-05-03,2026-06-08,389,Corrective,In Progress,High,Critical,Low,Power Block,Yes,73.52
+TASK-00330,AST-00182,S&T,Inspection,SEC-015,PNBE,2026-07-28,2026-09-25,70,Inspection,Scheduled,Low,Medium,Low,No Block,Yes,20.7
+TASK-00331,AST-00077,S&T,Repair,SEC-003,DLI,2026-07-12,2026-08-16,337,Emergency,Pending,Medium,High,Medium,Power Block,Yes,59.4
+TASK-00332,AST-00058,Engineering,Preventive Maintenance,SEC-010,JP,2026-04-16,2026-07-13,120,Preventive,Completed,Medium,High,Low,Power Block,Yes,55.1
+TASK-00333,AST-00191,Engineering,Replacement,SEC-017,HWH,2026-04-02,2026-06-08,470,Emergency,Scheduled,Medium,Medium,Low,Traffic Block,No,44.4
+TASK-00334,AST-00091,Engineering,Repair,SEC-009,JP,2026-04-02,2026-04-15,406,Emergency,Completed,Medium,High,Medium,Power Block,No,61.58
+TASK-00335,AST-00173,S&T,Replacement,SEC-019,LDH,2026-07-22,2026-10-04,441,Corrective,Completed,Medium,High,Medium,Power Block,Yes,51.76
+TASK-00336,AST-00079,Electrical,Testing,SEC-006,GAYA,2026-07-30,2026-10-20,132,Emergency,Scheduled,High,Low,Medium,Power Block,No,39.84
+TASK-00337,AST-00037,Electrical,Repair,SEC-009,ALD,2026-06-01,2026-07-06,331,Emergency,In Progress,High,Medium,Medium,Power Block,No,61.52
+TASK-00338,AST-00053,Engineering,Preventive Maintenance,SEC-020,ASR,2026-08-21,2026-09-17,84,Inspection,Pending,Medium,Critical,Medium,Traffic Block,Yes,54.88
+TASK-00339,AST-00047,Electrical,Repair,SEC-018,ASR,2026-03-27,2026-07-25,346,Emergency,Completed,High,High,Medium,Traffic Block,Yes,70.9
+TASK-00340,AST-00146,Engineering,Repair,SEC-012,HWH,2026-06-19,2026-10-08,189,Inspection,Scheduled,High,Medium,High,Line Block,Yes,59.28
+TASK-00341,AST-00077,S&T,Overhaul,SEC-003,DLI,2026-04-29,2026-07-20,397,Emergency,Completed,Medium,High,Low,Traffic Block,Yes,53.76
+TASK-00342,AST-00019,Electrical,Corrective Maintenance,SEC-016,NDLS,2026-08-07,2026-09-21,341,Inspection,Pending,Low,High,Low,Traffic Block,Yes,36.63
+TASK-00343,AST-00143,S&T,Repair,SEC-018,MTC,2026-04-20,2026-06-15,313,Corrective,In Progress,Medium,High,Low,Line Block,No,57.47
+TASK-00344,AST-00005,Engineering,Overhaul,SEC-003,LDH,2026-06-30,2026-09-22,388,Emergency,Scheduled,High,Medium,High,Power Block,No,56.18
+TASK-00345,AST-00189,S&T,Preventive Maintenance,SEC-017,ANVT,2026-06-20,2026-06-23,65,Preventive,Scheduled,High,Critical,High,No Block,Yes,79.11
+TASK-00346,AST-00026,Engineering,Corrective Maintenance,SEC-008,NGP,2026-06-15,2026-08-08,106,Inspection,Pending,High,Medium,High,Traffic Block,Yes,67.33
+TASK-00347,AST-00092,S&T,Repair,SEC-007,ALD,2026-07-08,2026-10-21,346,Preventive,Completed,High,Low,High,Traffic Block,Yes,49.72
+TASK-00348,AST-00127,Electrical,Overhaul,SEC-012,ASR,2026-05-12,2026-07-01,302,Emergency,Completed,High,High,Medium,Power Block,No,75.3
+TASK-00349,AST-00075,S&T,Preventive Maintenance,SEC-015,RE,2026-07-17,2026-08-01,63,Inspection,Scheduled,Medium,Critical,Low,No Block,No,58.53
+TASK-00350,AST-00008,Engineering,Corrective Maintenance,SEC-008,GZB,2026-04-11,2026-05-01,345,Preventive,Pending,Medium,Critical,Critical,Line Block,Yes,86.96
+TASK-00351,AST-00108,Electrical,Replacement,SEC-006,PNBE,2026-08-02,2026-10-31,465,Preventive,Pending,High,Medium,High,Traffic Block,Yes,58.22
+TASK-00352,AST-00033,Engineering,Inspection,SEC-005,ALD,2026-08-07,2026-09-09,120,Inspection,Pending,Medium,High,Medium,Power Block,No,53.75
+TASK-00353,AST-00079,Electrical,Testing,SEC-006,GAYA,2026-04-10,2026-08-06,112,Corrective,In Progress,High,High,High,Line Block,Yes,78.28
+TASK-00354,AST-00097,Engineering,Testing,SEC-005,MTC,2026-09-06,2026-11-25,144,Emergency,Pending,High,Low,High,Line Block,Yes,46.26
+TASK-00355,AST-00050,S&T,Corrective Maintenance,SEC-015,UMB,2026-05-29,2026-08-20,124,Preventive,Scheduled,High,High,High,Traffic Block,Yes,72.68
+TASK-00356,AST-00185,S&T,Repair,SEC-012,UMB,2026-06-03,2026-08-27,430,Emergency,Completed,Medium,Critical,Low,Power Block,No,61.13
+TASK-00357,AST-00170,S&T,Overhaul,SEC-005,AGC,2026-05-14,2026-08-25,602,Preventive,Completed,High,Critical,Medium,Traffic Block,No,75.74
+TASK-00358,AST-00178,Engineering,Replacement,SEC-006,NGP,2026-08-22,2026-09-19,278,Preventive,Scheduled,Medium,Medium,High,Line Block,No,50.34
+TASK-00359,AST-00137,Electrical,Overhaul,SEC-017,BBS,2026-08-14,2026-11-21,645,Emergency,Completed,Low,Low,Low,Line Block,Yes,18.88
+TASK-00360,AST-00158,S&T,Corrective Maintenance,SEC-016,ANVT,2026-05-20,2026-09-17,280,Emergency,Pending,High,Critical,Medium,Traffic Block,Yes,70.07
+TASK-00361,AST-00061,Electrical,Overhaul,SEC-008,ALD,2026-04-23,2026-08-20,611,Emergency,Completed,High,Critical,High,Line Block,Yes,87.26
+TASK-00362,AST-00054,S&T,Preventive Maintenance,SEC-019,ALD,2026-09-09,2026-10-18,65,Corrective,Completed,Medium,Low,Medium,No Block,Yes,29.01
+TASK-00363,AST-00079,Electrical,Corrective Maintenance,SEC-006,GAYA,2026-07-09,2026-08-08,294,Emergency,Completed,High,Critical,High,Traffic Block,Yes,86.13
+TASK-00364,AST-00065,Electrical,Testing,SEC-015,GAYA,2026-03-15,2026-05-28,142,Preventive,Completed,Low,Medium,Low,Power Block,Yes,34.82
+TASK-00365,AST-00008,Engineering,Testing,SEC-008,GZB,2026-05-27,2026-09-24,142,Preventive,Pending,Medium,Low,Medium,Power Block,Yes,37.81
+TASK-00366,AST-00179,Electrical,Preventive Maintenance,SEC-011,MTC,2026-05-05,2026-08-03,232,Corrective,Pending,High,Medium,High,Power Block,Yes,73.76
+TASK-00367,AST-00080,Electrical,Overhaul,SEC-019,LDH,2026-05-12,2026-07-25,496,Preventive,Pending,High,Critical,Medium,Traffic Block,Yes,76.5
+TASK-00368,AST-00055,S&T,Replacement,SEC-012,ASR,2026-06-01,2026-08-24,304,Corrective,In Progress,High,Critical,Medium,Line Block,Yes,78.58
+TASK-00369,AST-00120,Engineering,Corrective Maintenance,SEC-011,NGP,2026-05-25,2026-07-11,102,Corrective,Pending,Medium,Critical,Medium,Traffic Block,Yes,66.93
+TASK-00370,AST-00063,Engineering,Overhaul,SEC-004,ASR,2026-08-20,2026-09-04,415,Preventive,Scheduled,Low,High,Low,Power Block,Yes,38.44
+TASK-00371,AST-00143,S&T,Replacement,SEC-018,MTC,2026-07-20,2026-09-28,537,Emergency,Pending,Medium,Medium,High,Line Block,Yes,49.69
+TASK-00372,AST-00129,Engineering,Testing,SEC-019,MTC,2026-06-30,2026-07-26,114,Emergency,Pending,High,Critical,Critical,Power Block,No,92.83
+TASK-00373,AST-00027,S&T,Preventive Maintenance,SEC-014,BPL,2026-03-28,2026-05-17,85,Inspection,Pending,Low,High,Low,No Block,No,37.99
+TASK-00374,AST-00031,S&T,Replacement,SEC-016,NGP,2026-07-09,2026-11-05,189,Emergency,Pending,High,Low,Medium,Line Block,Yes,45.35
+TASK-00375,AST-00076,Electrical,Repair,SEC-003,NGP,2026-07-07,2026-10-28,197,Preventive,In Progress,High,Medium,Medium,Power Block,Yes,51.67
+TASK-00376,AST-00066,S&T,Preventive Maintenance,SEC-016,BPL,2026-04-03,2026-06-30,206,Inspection,Scheduled,Medium,High,Low,Line Block,Yes,55.94
+TASK-00377,AST-00130,Engineering,Preventive Maintenance,SEC-015,JP,2026-07-21,2026-11-09,240,Emergency,Scheduled,Low,Medium,Low,Traffic Block,Yes,23.54
+TASK-00378,AST-00078,S&T,Corrective Maintenance,SEC-005,NGP,2026-08-11,2026-09-04,301,Corrective,In Progress,High,Medium,Medium,Traffic Block,Yes,55.22
+TASK-00379,AST-00050,S&T,Corrective Maintenance,SEC-015,UMB,2026-04-07,2026-06-25,208,Corrective,Scheduled,High,Critical,High,Line Block,No,82.54
+TASK-00380,AST-00059,Engineering,Preventive Maintenance,SEC-015,BPL,2026-03-28,2026-05-15,181,Inspection,Pending,Medium,High,High,Power Block,No,63.42
+TASK-00381,AST-00112,Engineering,Testing,SEC-015,DLI,2026-03-23,2026-04-18,128,Corrective,Pending,High,Critical,Critical,Power Block,Yes,94.96
+TASK-00382,AST-00083,S&T,Corrective Maintenance,SEC-012,BPL,2026-06-05,2026-09-06,358,Inspection,Pending,Medium,High,Medium,Traffic Block,No,57.39
+TASK-00383,AST-00035,Engineering,Overhaul,SEC-006,ANVT,2026-04-26,2026-06-16,337,Preventive,Scheduled,High,High,Critical,Power Block,Yes,82.63
+TASK-00384,AST-00178,Engineering,Inspection,SEC-006,NGP,2026-04-07,2026-08-03,89,Corrective,Scheduled,Medium,High,Medium,Line Block,Yes,62.06
+TASK-00385,AST-00130,Engineering,Preventive Maintenance,SEC-015,JP,2026-05-18,2026-05-22,111,Inspection,Scheduled,Low,Critical,Low,Traffic Block,No,56.82
+TASK-00386,AST-00146,Engineering,Overhaul,SEC-012,HWH,2026-08-20,2026-10-27,434,Inspection,Completed,High,Medium,Critical,Line Block,No,63.25
+TASK-00387,AST-00070,S&T,Preventive Maintenance,SEC-013,PNBE,2026-07-31,2026-11-20,167,Corrective,Pending,Medium,Low,Low,Traffic Block,No,28.17
+TASK-00388,AST-00122,Engineering,Repair,SEC-004,BBS,2026-07-08,2026-07-10,431,Inspection,Scheduled,High,High,High,Power Block,Yes,75.33
+TASK-00389,AST-00060,S&T,Replacement,SEC-003,JP,2026-09-09,2026-10-11,274,Emergency,Completed,Low,Medium,Low,Traffic Block,Yes,25.81
+TASK-00390,AST-00119,Engineering,Inspection,SEC-011,ALD,2026-06-26,2026-08-08,43,Preventive,In Progress,High,Critical,High,No Block,Yes,81.2
+TASK-00391,AST-00138,Electrical,Repair,SEC-011,GZB,2026-06-20,2026-08-07,269,Preventive,Pending,Medium,Critical,Low,Line Block,Yes,69.56
+TASK-00392,AST-00075,S&T,Inspection,SEC-015,RE,2026-07-19,2026-10-06,103,Preventive,Completed,Medium,Medium,High,Power Block,Yes,49.4
+TASK-00393,AST-00018,S&T,Preventive Maintenance,SEC-005,UMB,2026-06-12,2026-10-09,221,Inspection,Scheduled,Low,High,High,Traffic Block,Yes,43.96
+TASK-00394,AST-00189,S&T,Testing,SEC-017,ANVT,2026-08-11,2026-11-14,99,Corrective,Pending,High,Low,Medium,Power Block,Yes,42.55
+TASK-00395,AST-00158,S&T,Replacement,SEC-016,ANVT,2026-06-26,2026-08-30,382,Emergency,Scheduled,High,Critical,Medium,Power Block,No,74.07
+TASK-00396,AST-00148,S&T,Inspection,SEC-003,HWH,2026-05-12,2026-08-23,91,Corrective,In Progress,Medium,Critical,Low,Line Block,Yes,59.99
+TASK-00397,AST-00020,S&T,Replacement,SEC-002,LKO,2026-06-22,2026-09-02,213,Preventive,Completed,High,Critical,Medium,Power Block,Yes,75.94
+TASK-00398,AST-00083,S&T,Repair,SEC-012,BPL,2026-04-17,2026-07-04,281,Corrective,Completed,Medium,High,Medium,Traffic Block,Yes,62.7
+TASK-00399,AST-00198,Engineering,Replacement,SEC-013,BBS,2026-06-25,2026-07-23,578,Emergency,Pending,Low,High,Low,Power Block,No,47.89
+TASK-00400,AST-00181,Engineering,Repair,SEC-012,JP,2026-06-15,2026-10-12,384,Emergency,Pending,Low,Medium,Low,Line Block,No,23.38
+TASK-00401,AST-00061,Electrical,Inspection,SEC-008,ALD,2026-06-23,2026-10-21,72,Preventive,Pending,High,Low,High,No Block,Yes,39.12
+TASK-00402,AST-00015,Engineering,Replacement,SEC-013,LDH,2026-06-29,2026-08-04,256,Emergency,Pending,Low,Medium,High,Line Block,Yes,49.53
+TASK-00403,AST-00095,Engineering,Corrective Maintenance,SEC-004,NDLS,2026-06-13,2026-08-23,235,Emergency,Pending,Medium,High,High,Line Block,Yes,65.81
+TASK-00404,AST-00016,Engineering,Overhaul,SEC-004,HWH,2026-05-13,2026-09-06,440,Preventive,In Progress,High,Critical,Critical,Line Block,No,84.75
+TASK-00405,AST-00137,Electrical,Corrective Maintenance,SEC-017,BBS,2026-04-06,2026-05-22,130,Emergency,Pending,Low,Critical,Medium,Power Block,Yes,62.26
+TASK-00406,AST-00042,S&T,Testing,SEC-009,JP,2026-03-30,2026-06-29,138,Inspection,Completed,Medium,High,Medium,Line Block,Yes,59.92
+TASK-00407,AST-00198,Engineering,Repair,SEC-013,BBS,2026-06-19,2026-08-17,299,Preventive,Pending,Low,High,Low,Line Block,Yes,47.73
+TASK-00408,AST-00035,Engineering,Replacement,SEC-006,ANVT,2026-08-14,2026-09-25,482,Preventive,Pending,High,Medium,High,Power Block,Yes,57.86
+TASK-00409,AST-00070,S&T,Repair,SEC-013,PNBE,2026-03-17,2026-06-01,208,Inspection,Scheduled,Medium,Critical,Medium,Power Block,Yes,69.32
+TASK-00410,AST-00032,S&T,Inspection,SEC-009,BPL,2026-06-19,2026-08-30,52,Inspection,Pending,Low,High,Low,No Block,Yes,40.33
+TASK-00411,AST-00146,Engineering,Testing,SEC-012,HWH,2026-04-15,2026-08-09,144,Preventive,Pending,High,High,High,Traffic Block,Yes,76.2
+TASK-00412,AST-00101,S&T,Overhaul,SEC-015,GAYA,2026-04-18,2026-07-29,553,Emergency,Completed,High,High,Medium,Power Block,Yes,70.25
+TASK-00413,AST-00146,Engineering,Overhaul,SEC-012,HWH,2026-08-28,2026-08-29,599,Emergency,Scheduled,High,Critical,High,Power Block,Yes,79.06
+TASK-00414,AST-00060,S&T,Repair,SEC-003,JP,2026-03-25,2026-04-17,304,Corrective,Scheduled,Low,Critical,Medium,Traffic Block,Yes,60.25
+TASK-00415,AST-00118,Engineering,Repair,SEC-005,BPL,2026-08-05,2026-11-06,448,Inspection,Scheduled,Medium,Medium,Medium,Power Block,Yes,40.16
+TASK-00416,AST-00097,Engineering,Testing,SEC-005,MTC,2026-05-25,2026-08-04,46,Inspection,Scheduled,High,High,Critical,No Block,Yes,80.86
+TASK-00417,AST-00156,S&T,Corrective Maintenance,SEC-004,GZB,2026-04-24,2026-07-07,337,Preventive,Completed,Low,Critical,Low,Line Block,No,59.15
+TASK-00418,AST-00071,Engineering,Replacement,SEC-012,JP,2026-07-01,2026-08-30,421,Preventive,Pending,Medium,Critical,Medium,Line Block,Yes,61.95
+TASK-00419,AST-00120,Engineering,Testing,SEC-011,NGP,2026-06-15,2026-08-23,129,Preventive,Pending,Medium,High,High,Power Block,Yes,65.46
+TASK-00420,AST-00131,Electrical,Corrective Maintenance,SEC-014,AGC,2026-04-11,2026-07-16,332,Emergency,Pending,Low,Critical,Low,Line Block,Yes,53.69
+TASK-00421,AST-00003,Engineering,Replacement,SEC-018,ALD,2026-08-20,2026-09-06,323,Preventive,In Progress,Medium,Low,Low,Traffic Block,No,30.31
+TASK-00422,AST-00170,S&T,Corrective Maintenance,SEC-005,AGC,2026-03-26,2026-05-23,210,Corrective,Scheduled,High,Critical,Medium,Traffic Block,No,81.97
+TASK-00423,AST-00063,Engineering,Repair,SEC-004,ASR,2026-08-02,2026-11-18,446,Inspection,Scheduled,Low,Low,Low,Traffic Block,Yes,22.26
+TASK-00424,AST-00197,S&T,Repair,SEC-014,ANVT,2026-05-12,2026-06-20,362,Corrective,Pending,High,Critical,Low,Power Block,Yes,73.81
+TASK-00425,AST-00039,Engineering,Inspection,SEC-003,HWH,2026-04-28,2026-07-25,98,Preventive,Scheduled,High,High,Medium,Traffic Block,Yes,67.78
+TASK-00426,AST-00029,S&T,Overhaul,SEC-009,BPL,2026-05-15,2026-08-22,586,Corrective,Pending,Medium,High,Low,Traffic Block,No,52.46
+TASK-00427,AST-00107,Engineering,Inspection,SEC-009,PNBE,2026-08-16,2026-10-23,74,Inspection,Pending,Medium,Medium,Low,No Block,No,29.7
+TASK-00428,AST-00163,Engineering,Inspection,SEC-020,AGC,2026-04-10,2026-07-01,41,Preventive,Completed,Medium,Critical,Medium,No Block,Yes,62.05
+TASK-00429,AST-00180,Electrical,Corrective Maintenance,SEC-019,DLI,2026-03-31,2026-05-29,255,Inspection,Pending,High,High,Low,Power Block,Yes,68.16
+TASK-00430,AST-00133,S&T,Repair,SEC-009,NDLS,2026-07-05,2026-07-28,211,Preventive,Pending,Medium,Medium,Medium,Traffic Block,Yes,52.32
+TASK-00431,AST-00053,Engineering,Corrective Maintenance,SEC-020,ASR,2026-05-20,2026-08-20,126,Preventive,Completed,Medium,Low,Medium,Line Block,Yes,37.23
+TASK-00432,AST-00135,S&T,Corrective Maintenance,SEC-004,DLI,2026-03-24,2026-05-13,290,Corrective,In Progress,High,High,High,Line Block,No,84.84
+TASK-00433,AST-00084,Electrical,Inspection,SEC-020,HWH,2026-04-25,2026-05-24,118,Inspection,Completed,Medium,High,Medium,Traffic Block,Yes,58.87
+TASK-00434,AST-00185,S&T,Replacement,SEC-012,UMB,2026-08-18,2026-10-04,283,Emergency,Completed,Medium,Critical,Medium,Power Block,Yes,61.37
+TASK-00435,AST-00198,Engineering,Corrective Maintenance,SEC-013,BBS,2026-04-02,2026-06-30,314,Inspection,Pending,Low,Medium,High,Traffic Block,Yes,49.02
+TASK-00436,AST-00077,S&T,Corrective Maintenance,SEC-003,DLI,2026-04-25,2026-07-17,98,Inspection,In Progress,Medium,Critical,Low,Traffic Block,Yes,59.43
+TASK-00437,AST-00099,Electrical,Overhaul,SEC-019,GAYA,2026-04-30,2026-06-28,312,Corrective,In Progress,High,Critical,High,Line Block,Yes,92.44
+TASK-00438,AST-00197,S&T,Preventive Maintenance,SEC-014,ANVT,2026-08-08,2026-08-10,84,Preventive,Pending,High,Critical,Medium,No Block,No,74.2
+TASK-00439,AST-00025,Engineering,Corrective Maintenance,SEC-017,LKO,2026-07-21,2026-09-14,160,Inspection,In Progress,Medium,High,Medium,Traffic Block,Yes,47.73
+TASK-00440,AST-00078,S&T,Corrective Maintenance,SEC-005,NGP,2026-07-29,2026-10-27,110,Corrective,Pending,High,Medium,Low,Power Block,Yes,45.92
+TASK-00441,AST-00081,S&T,Overhaul,SEC-004,JP,2026-08-19,2026-11-18,345,Emergency,Pending,High,Medium,High,Power Block,Yes,55.66
+TASK-00442,AST-00034,Electrical,Replacement,SEC-002,DLI,2026-03-17,2026-03-22,580,Corrective,Scheduled,Medium,High,Medium,Traffic Block,Yes,58.79
+TASK-00443,AST-00136,Engineering,Corrective Maintenance,SEC-010,RE,2026-08-17,2026-11-05,196,Corrective,Pending,High,Medium,High,Power Block,Yes,63.33
+TASK-00444,AST-00092,S&T,Overhaul,SEC-007,ALD,2026-08-30,2026-09-06,555,Emergency,In Progress,High,Medium,High,Line Block,Yes,55.86
+TASK-00445,AST-00077,S&T,Inspection,SEC-003,DLI,2026-05-09,2026-07-14,60,Preventive,Scheduled,Medium,High,Low,No Block,Yes,49.48
+TASK-00446,AST-00195,S&T,Preventive Maintenance,SEC-006,ALD,2026-07-21,2026-09-08,209,Preventive,Scheduled,Medium,Critical,Medium,Power Block,Yes,61.04
+TASK-00447,AST-00030,Engineering,Corrective Maintenance,SEC-002,HWH,2026-07-23,2026-10-12,155,Emergency,Pending,Medium,Low,Low,Power Block,Yes,24.3
+TASK-00448,AST-00158,S&T,Corrective Maintenance,SEC-016,ANVT,2026-06-15,2026-07-14,177,Corrective,Pending,High,Medium,Critical,Power Block,No,74.58
+TASK-00449,AST-00015,Engineering,Repair,SEC-013,LDH,2026-05-12,2026-08-28,246,Emergency,Completed,Low,Critical,Low,Traffic Block,No,51.35
+TASK-00450,AST-00188,S&T,Inspection,SEC-005,GAYA,2026-05-27,2026-06-02,94,Inspection,In Progress,High,High,Medium,Line Block,No,73.8
+TASK-00451,AST-00034,Electrical,Preventive Maintenance,SEC-002,DLI,2026-05-29,2026-06-26,121,Emergency,Pending,Medium,Medium,Medium,Line Block,No,50.35
+TASK-00452,AST-00114,Engineering,Testing,SEC-008,GZB,2026-05-17,2026-07-16,45,Corrective,Pending,Low,Critical,Low,Power Block,Yes,59.2
+TASK-00453,AST-00163,Engineering,Replacement,SEC-020,AGC,2026-07-03,2026-10-01,443,Corrective,Pending,Medium,High,Low,Power Block,Yes,44.4
+TASK-00454,AST-00128,S&T,Overhaul,SEC-006,CNB,2026-06-09,2026-07-02,516,Preventive,In Progress,High,Critical,High,Line Block,No,87.56
+TASK-00455,AST-00078,S&T,Corrective Maintenance,SEC-005,NGP,2026-07-15,2026-08-26,306,Emergency,Scheduled,High,High,High,Line Block,No,73.63
+TASK-00456,AST-00192,S&T,Testing,SEC-005,CNB,2026-04-27,2026-07-23,61,Emergency,Pending,Medium,High,High,No Block,Yes,57.44
+TASK-00457,AST-00052,Electrical,Preventive Maintenance,SEC-001,GZB,2026-08-22,2026-09-05,238,Emergency,In Progress,Low,High,Low,Power Block,Yes,35.56
+TASK-00458,AST-00010,S&T,Corrective Maintenance,SEC-006,BPL,2026-08-08,2026-10-08,100,Inspection,Scheduled,Medium,High,Low,Line Block,Yes,47.84
+TASK-00459,AST-00095,Engineering,Overhaul,SEC-004,NDLS,2026-06-15,2026-09-07,530,Emergency,Pending,Medium,Critical,Medium,Power Block,Yes,57.82
+TASK-00460,AST-00072,S&T,Testing,SEC-016,LKO,2026-06-29,2026-10-06,86,Preventive,In Progress,High,High,Medium,Line Block,Yes,61.03
+TASK-00461,AST-00118,Engineering,Preventive Maintenance,SEC-005,BPL,2026-08-02,2026-08-23,141,Preventive,Pending,Medium,High,Medium,Line Block,Yes,57.65
+TASK-00462,AST-00107,Engineering,Replacement,SEC-009,PNBE,2026-06-07,2026-08-04,387,Corrective,Completed,Medium,Critical,High,Power Block,Yes,79.68
+TASK-00463,AST-00046,Engineering,Corrective Maintenance,SEC-010,UMB,2026-04-24,2026-06-28,165,Emergency,Pending,Medium,High,Low,Power Block,No,60.1
+TASK-00464,AST-00128,S&T,Corrective Maintenance,SEC-006,CNB,2026-04-22,2026-05-07,202,Preventive,In Progress,High,Medium,High,Line Block,Yes,72.51
+TASK-00465,AST-00104,Electrical,Inspection,SEC-020,PNBE,2026-07-01,2026-07-27,98,Preventive,Pending,High,High,High,Traffic Block,No,75.55
+TASK-00466,AST-00159,Electrical,Testing,SEC-005,HWH,2026-08-04,2026-11-04,134,Inspection,In Progress,High,Low,High,Line Block,Yes,47.97
+TASK-00467,AST-00152,Engineering,Repair,SEC-016,BPL,2026-05-20,2026-08-23,332,Inspection,Pending,High,Medium,Medium,Line Block,No,61.17
+TASK-00468,AST-00197,S&T,Repair,SEC-014,ANVT,2026-04-12,2026-07-18,332,Preventive,Completed,High,Critical,High,Traffic Block,Yes,86.3
+TASK-00469,AST-00064,Engineering,Repair,SEC-018,LKO,2026-06-28,2026-09-07,372,Preventive,Completed,Low,High,Medium,Traffic Block,Yes,37.5
+TASK-00470,AST-00042,S&T,Inspection,SEC-009,JP,2026-04-01,2026-06-01,83,Emergency,Pending,Medium,Medium,Low,Traffic Block,Yes,42.3
+TASK-00471,AST-00030,Engineering,Repair,SEC-002,HWH,2026-05-10,2026-07-22,475,Emergency,Pending,Medium,High,Medium,Power Block,Yes,66.75
+TASK-00472,AST-00134,Electrical,Overhaul,SEC-008,GAYA,2026-06-21,2026-08-20,454,Corrective,Scheduled,High,Medium,Medium,Line Block,No,63.15
+TASK-00473,AST-00074,Engineering,Testing,SEC-003,ASR,2026-04-03,2026-04-27,122,Preventive,Scheduled,High,High,High,Power Block,Yes,77.0
+TASK-00474,AST-00166,Electrical,Preventive Maintenance,SEC-011,PNBE,2026-08-05,2026-08-07,184,Emergency,Scheduled,High,Medium,Medium,Traffic Block,No,63.1
+TASK-00475,AST-00185,S&T,Replacement,SEC-012,UMB,2026-03-18,2026-07-03,599,Preventive,Scheduled,Medium,High,Medium,Power Block,Yes,64.93
+TASK-00476,AST-00104,Electrical,Testing,SEC-020,PNBE,2026-04-11,2026-06-17,81,Emergency,Scheduled,High,Critical,Medium,No Block,No,78.42
+TASK-00477,AST-00040,Engineering,Inspection,SEC-008,UMB,2026-08-13,2026-08-23,85,Inspection,In Progress,Low,High,Low,Traffic Block,Yes,41.59
+TASK-00478,AST-00047,Electrical,Inspection,SEC-018,ASR,2026-08-17,2026-11-26,105,Corrective,Pending,High,Low,High,Power Block,No,52.06
+TASK-00479,AST-00128,S&T,Replacement,SEC-006,CNB,2026-07-31,2026-11-18,599,Corrective,In Progress,High,Low,High,Power Block,Yes,48.21
+TASK-00480,AST-00157,Engineering,Inspection,SEC-013,ASR,2026-09-09,2026-12-11,94,Corrective,Scheduled,High,Medium,Medium,Power Block,No,51.52
+TASK-00481,AST-00127,Electrical,Repair,SEC-012,ASR,2026-05-02,2026-06-01,176,Preventive,Pending,High,Critical,High,Line Block,No,87.13
+TASK-00482,AST-00136,Engineering,Repair,SEC-010,RE,2026-05-07,2026-05-22,471,Emergency,Completed,High,High,Critical,Traffic Block,No,83.14
+TASK-00483,AST-00183,Electrical,Corrective Maintenance,SEC-020,NGP,2026-05-12,2026-08-07,341,Corrective,Scheduled,High,High,High,Traffic Block,Yes,79.7
+TASK-00484,AST-00085,Electrical,Overhaul,SEC-008,ANVT,2026-04-12,2026-04-26,544,Corrective,In Progress,Medium,Medium,High,Line Block,Yes,57.14
+TASK-00485,AST-00109,Electrical,Corrective Maintenance,SEC-004,CNB,2026-04-15,2026-06-30,297,Inspection,Pending,High,Critical,Medium,Power Block,Yes,77.98
+TASK-00486,AST-00175,S&T,Inspection,SEC-017,ANVT,2026-08-07,2026-08-11,38,Preventive,In Progress,High,Medium,High,No Block,Yes,68.41
+TASK-00487,AST-00096,Engineering,Repair,SEC-009,NGP,2026-05-07,2026-08-17,371,Corrective,Pending,Medium,Critical,Medium,Traffic Block,No,64.38
+TASK-00488,AST-00113,Engineering,Inspection,SEC-004,NDLS,2026-05-23,2026-09-13,87,Inspection,Scheduled,Medium,Medium,Medium,Line Block,Yes,43.41
+TASK-00489,AST-00066,S&T,Repair,SEC-016,BPL,2026-06-23,2026-09-23,457,Inspection,Pending,Medium,Medium,High,Line Block,Yes,52.75
+TASK-00490,AST-00005,Engineering,Replacement,SEC-003,LDH,2026-04-12,2026-05-31,482,Emergency,In Progress,High,Critical,Medium,Line Block,Yes,82.49
+TASK-00491,AST-00158,S&T,Repair,SEC-016,ANVT,2026-04-03,2026-05-17,330,Preventive,In Progress,High,High,High,Line Block,Yes,77.46
+TASK-00492,AST-00116,S&T,Corrective Maintenance,SEC-007,GAYA,2026-06-24,2026-07-09,256,Corrective,Scheduled,Medium,High,High,Power Block,Yes,71.23
+TASK-00493,AST-00053,Engineering,Repair,SEC-020,ASR,2026-09-05,2026-10-16,370,Inspection,Scheduled,Medium,Low,Medium,Line Block,Yes,37.46
+TASK-00494,AST-00090,Electrical,Preventive Maintenance,SEC-016,HWH,2026-06-09,2026-08-04,79,Inspection,Pending,High,Critical,High,No Block,No,79.09
+TASK-00495,AST-00147,Engineering,Replacement,SEC-003,ALD,2026-04-15,2026-04-28,287,Emergency,Scheduled,High,Critical,Medium,Power Block,Yes,80.02
+TASK-00496,AST-00161,S&T,Repair,SEC-005,NGP,2026-07-21,2026-09-13,463,Emergency,Scheduled,Medium,Critical,Medium,Line Block,No,63.23
+TASK-00497,AST-00069,S&T,Testing,SEC-003,ASR,2026-07-18,2026-10-11,60,Inspection,In Progress,High,Low,High,No Block,Yes,36.04
+TASK-00498,AST-00017,Engineering,Repair,SEC-009,BBS,2026-06-26,2026-10-13,331,Inspection,Pending,High,Medium,Medium,Line Block,Yes,48.22
+TASK-00499,AST-00182,S&T,Inspection,SEC-015,PNBE,2026-08-03,2026-08-28,69,Corrective,Pending,Low,High,Low,No Block,No,32.08
+TASK-00500,AST-00038,Electrical,Overhaul,SEC-015,RE,2026-04-23,2026-05-16,548,Preventive,In Progress,Medium,Critical,High,Power Block,No,75.99
