@@ -1,14 +1,29 @@
 import pandas as pd
 
+assets = pd.read_csv("Datasets/New_data/assets.csv")
+tasks = pd.read_csv("Datasets/New_data/maintenance_tasks.csv")
+defects = pd.read_csv("Datasets/New_data/defects.csv")
+trains = pd.read_csv("Datasets/New_data/train_movements.csv")
 
-assets = pd.read_csv("Datasets/assets.csv")
-tasks = pd.read_csv("Datasets/maintenance_tasks.csv")
-defects = pd.read_csv("Datasets/defects.csv")
-trains = pd.read_csv("Datasets/train_movements.csv")
+original_priority_score = tasks["priority_score"].copy()
 tasks = tasks.drop(columns=["priority_score"])
 
-tasks["section_id"] = tasks["section_id"].str.replace("-", "", regex=False)
-trains["section_id"] = trains["section_id"].str.replace("-", "", regex=False)
+
+tasks["section_id"] = (
+    tasks["section_id"]
+    .str.replace("-", "", regex=False)
+)
+
+trains["section_id"] = (
+    trains["section_id"]
+    .str.replace("-", "", regex=False)
+)
+
+trains["priority"] = pd.to_numeric(
+    trains["priority"],
+    errors="coerce"
+)
+
 
 defect_features = defects.groupby("asset_id").agg(
 
@@ -36,20 +51,6 @@ defect_features = defects.groupby("asset_id").agg(
 
 ).reset_index()
 
-print("Task section IDs:")
-print(tasks["section_id"].unique()[:20])
-
-print("\nTrain section IDs:")
-print(trains["section_id"].unique()[:20])
-
-print("\nMatching section IDs:")
-print(
-    len(
-        set(tasks["section_id"].unique())
-        &
-        set(trains["section_id"].unique())
-    )
-)
 
 train_features = trains.groupby("section_id").agg(
 
@@ -73,7 +74,6 @@ train_features = trains.groupby("section_id").agg(
 ).reset_index()
 
 
-
 df = tasks.merge(
     assets,
     on="asset_id",
@@ -93,6 +93,9 @@ df = df.merge(
     how="left"
 )
 
+df["original_priority_score"] = (
+    original_priority_score.values
+)
 
 today = pd.Timestamp("2026-09-10")
 
@@ -112,9 +115,9 @@ df["next_due_date"] = pd.to_datetime(
     df["next_due_date"]
 )
 
-
 df["asset_age_years"] = (
-    (today - df["installation_date"]).dt.days / 365.25
+    (today - df["installation_date"]).dt.days
+    / 365.25
 )
 
 df["days_since_last_maintenance"] = (
@@ -124,7 +127,6 @@ df["days_since_last_maintenance"] = (
 df["days_until_due"] = (
     df["due_date"] - today
 ).dt.days
-
 
 df = df.fillna({
 
@@ -140,36 +142,19 @@ df = df.fillna({
     "critical_train_count": 0
 })
 
+df["C"] = pd.to_numeric(
+    df["criticality"],
+    errors="coerce"
+)
 
-criticality_map = {
-    "Low": 25,
-    "Medium": 50,
-    "High": 75,
-    "Critical": 100
-}
+df["U"] = pd.to_numeric(
+    df["urgency"],
+    errors="coerce"
+)
 
-df["C"] = df["criticality"].map(criticality_map)
-
-
-urgency_map = {
-    "Low": 25,
-    "Medium": 50,
-    "High": 75,
-    "Critical": 100
-}
-
-df["U"] = df["urgency"].map(urgency_map)
-
-
-impact_map = {
-    "Low": 25,
-    "Medium": 50,
-    "High": 75,
-    "Critical": 100
-}
-
-df["base_impact"] = df["operational_impact"].map(
-    impact_map
+df["base_impact"] = pd.to_numeric(
+    df["operational_impact"],
+    errors="coerce"
 )
 
 
@@ -179,13 +164,15 @@ def normalize(series):
     max_value = series.max()
 
     if max_value == min_value:
-        return pd.Series(0, index=series.index)
+        return pd.Series(
+            0,
+            index=series.index
+        )
 
     return (
-        (series - min_value) /
-        (max_value - min_value)
+        (series - min_value)
+        / (max_value - min_value)
     ) * 100
-
 
 train_pressure = (
     df["train_count"] * 0.4
@@ -193,14 +180,15 @@ train_pressure = (
     + df["critical_train_count"] * 0.3
 )
 
-df["train_pressure"] = normalize(train_pressure)
+df["train_pressure"] = normalize(
+    train_pressure
+)
 
 
 df["I"] = (
     0.6 * df["base_impact"]
     + 0.4 * df["train_pressure"]
 )
-
 
 
 df["overdue_days"] = (
@@ -211,7 +199,6 @@ df["overdue_days"] = (
 overdue_days_score = normalize(
     df["overdue_days"]
 )
-
 
 overdue_defect_score = normalize(
     df["overdue_defect_count"]
@@ -224,77 +211,111 @@ df["O"] = (
 )
 
 
-df["priority_score"] = (
+df["calculated_priority_score"] = (
+
     0.30 * df["C"]
+
     + 0.25 * df["U"]
+
     + 0.30 * df["I"]
+
     + 0.15 * df["O"]
 )
 
 
-df["priority_score"] = (
-    0.30 * df["C"]
-    + 0.25 * df["U"]
-    + 0.30 * df["I"]
-    + 0.15 * df["O"]
+df["calculated_priority_score"] = (
+    df["calculated_priority_score"]
+    .clip(0, 100)
 )
-
-df["priority_score"] = df["priority_score"].clip(0, 100)
-
 
 
 print("\nPriority Components:")
+
 print(
-    df[["C", "U", "I", "O", "priority_score"]].describe()
+    df[
+        [
+            "C",
+            "U",
+            "I",
+            "O",
+            "calculated_priority_score",
+            "original_priority_score"
+        ]
+    ].describe()
 )
 
-print("\nCorrelation with Priority Score:")
+print(
+    "\nCorrelation with Calculated Priority Score:"
+)
 
 correlation_cols = [
+
     "C",
     "U",
     "I",
     "O",
+
     "defect_count",
     "critical_defect_count",
     "overdue_defect_count",
     "repeat_defect_count",
+
     "train_count",
     "critical_train_count",
+
     "days_until_due",
-    "priority_score"
+
+    "calculated_priority_score",
+    "original_priority_score"
 ]
 
 print(
     df[correlation_cols]
-    .corr()["priority_score"]
+    .corr()["calculated_priority_score"]
     .sort_values(ascending=False)
 )
 
-
 df = df.drop(columns=[
+
     "reported_date",
     "due_date",
     "installation_date",
     "last_maintenance_date",
     "next_due_date",
+
     "C",
     "U",
     "I",
     "O",
+
     "base_impact",
     "train_pressure",
     "overdue_days"
 ])
 
-
-
 df.to_csv(
-    "Datasets/final_training_data.csv",
+    "Datasets/New_data/final_training_data.csv",
     index=False
 )
 
-print("\nFinal dataset created successfully!")
-print("Shape:", df.shape)
-print("\nPriority score statistics:")
-print(df["priority_score"].describe())
+print(
+    "\nFinal dataset created successfully!"
+)
+
+print(
+    "Shape:",
+    df.shape
+)
+
+print(
+    "\nPriority score statistics:"
+)
+
+print(
+    df[
+        [
+            "calculated_priority_score",
+            "original_priority_score"
+        ]
+    ].describe()
+)
