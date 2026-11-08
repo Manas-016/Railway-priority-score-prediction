@@ -116,9 +116,9 @@ Railway-priority-score-prediction/
 
 The model is evaluated using the following regression metrics:
 
-- **MAE:** Measures the average absolute difference between actual and predicted priority scores.
-- **RMSE:** Measures prediction error while penalizing larger errors.
-- **R² Score:** Measures how much variation in the target priority scores is explained by the model.
+- **MAE:** 0.7766212707519525
+- **RMSE:** 4.272733263838205
+- **R² Score:** 0.9288248164293822
 
 Actual evaluation results are generated when the model is trained.
 
